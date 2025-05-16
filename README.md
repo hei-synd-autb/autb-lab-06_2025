@@ -10,21 +10,19 @@ Course AutB
 
 Author: [Cédric Lenoir](mailto:cedric.lenoir@hevs.ch)
 
-# autb-lab-06_2025
-S4 LAB 06 Management of a discrete movement, MC_MoveAbsolute, based on PLCopen motion control.
+# LAB 06 Pack & PLCopen
+[Die deutsche Version ist hier verfügbar:](README_DE.md)
 
-This lab will be completed soon.
-
-# Objectif du travail pratique
+## Objectif du travail pratique
 -   [ ] Utiliser des Function Block du type PLCopen dans un contexte PackML
 -   [ ] Implémenter des alarmes et des warnings pour surveiller le système.
 
-# Règles de codage
+## Règles de codage
 -   Vous devez travailler uniquement dans **PRG_Student**.
 -   **PRG_Student** est un module parmis d'autres.
 -   Les modules d'axes servent à gérer la mise sous couple des moteurs et inversément vous n'avez pas à le faire.
 
-## Sécurité
+### Sécurité
 L'axe Z est prévu pour remonter pendant la phase de Resetting afin d'éviter les risques de Crash.
 
 Il sert d'exemple: **FB_ModuleAxis_Z** utilise **ACT_Resetting**
@@ -73,21 +71,21 @@ mcMoveAbs.Execute := (axisExecute = E_AxisExecute.eSetAbsolutePosition) OR
 
 Vous pouvez réutiliser le même FB ``MC_MoveAbsolute``, mais en utilisant une nouvelle instance, par exemple: ``mcMyMove``.
 
-## Etat réservé
+### Etat réservé
 L'état Execute en mode Manuel est réservé pour une activité de jog.
 Vous pouvez utiliser les autres état et modes.
 
-## Principe PackML HEVS
+### Principe PackML HEVS
 Le Pack façon HEVS gère automatiquement les états.
 **ACT_PackManager** et réservé pour la gestion du module.
 
 Vous ne codez que dans les actions des états qui sont nécessaire, principalement dans **Pack_Execute**. 
 
 
-## Implémentation des alarmes et des warnings
+### Implémentation des alarmes et des warnings
 Vous appelez vos Warnings et Alarms dans **ACT_WarningAndAlarms**. Voir ci-dessous dans [documentation](#documentation) les exemples de code.
 
-## A propos du Gripper
+### A propos du Gripper
 Le gripper est programmé pour être pilotable manuellement, sauf dans les conditions suivantes:
 
 ```iecst
@@ -102,7 +100,7 @@ END_IF
 Ce qui signifie que les deux Function Blocks peuvent être utilisés dans tous les autres états.
 
 
-# URS User Request Specification
+## URS User Request Specification
 
 1. **Execute**
 1.1 Les axes X et Z doivent se déplacer selon le tableau et [dessin ci-dessous](#details-for-square).
@@ -124,11 +122,11 @@ Ce qui signifie que les deux Function Blocks peuvent être utilisés dans tous l
 5.2 Si on coupe l'air comprimé et que le gripper ne s'ouver pas, on génère une alarme de niveau Stoppe avec un message.
 
 
-## Complément
+### Complément
 On peut aussi tester Complete qui devrait pouvoir repartir en resetting avec un Reset.
 
 
-## Details for Square
+### Details for Square
 
 |Id |Move To Position X|M.T.P Z |Action      |Delay [ms] |Next Id|
 |---|------------------|--------|------------|-----------|-------|
@@ -144,7 +142,7 @@ On peut aussi tester Complete qui devrait pouvoir repartir en resetting avec un 
     <figcaption>2D motion with a square</figcaption>
 </figure>
 
-# Documentation
+## Documentation
 
 -   [For Gripper Function Blocks online](FB_Gripper.md)
 -   [HEVS PackTag User Interface](HEVS_PackTag_UI.md)
@@ -152,7 +150,7 @@ On peut aussi tester Complete qui devrait pouvoir repartir en resetting avec un 
 -   [HEVS Warnings](FB_HEVS_SetWarning.md)
 
 
-## About Programs
+### About Programs
 
 In cltrX PLC Engineering
 
@@ -162,7 +160,7 @@ Manual motions are set in **HEVS_UnitBox** -> **PRG_Process**.
 
 **PRG_Student** is called in **PRG_Process**.
 
-### About SC State Complete
+#### About SC State Complete
 The synthesis of modules for the process/Unit are here in **ACT_Build_Pack_SC** of the program **PRG_Process**.
 
 ```iecst
@@ -177,7 +175,7 @@ xProcess_SC := fbModuleAxis_X.SC AND
                PRG_Student.SC;
 ```
 
-### In the task manager
+#### In the task manager
 Only one program is in the task manager it calls all other programs of the Unit Box. PRG_UnitBox.
 
 ```iecst

@@ -101,15 +101,18 @@ Das bedeutet, dass beide Funktionsbausteine ​​in allen anderen Zuständen ve
 
 ## URS-Benutzeranforderungsspezifikation
 
-1. **Ausführen**
+0. **Starting**
+0.1 In diesem Zustand werden die X- und Z-Achsen bei **X = -100** und **Z = 100** positioniert.
+0.2 Wenn beide Achsen in Position sind, wechseln wir zu „Ausführen“.
+1. **Execute**
 1.1 Die X- und Z-Achsen müssen sich gemäß Tabelle und [Zeichnung unten](#details-for-square) bewegen.
 1.2. Geschwindigkeit, Beschleunigung und Ruck können über die Bedienoberfläche (HMI) variiert werden.
 1.3. Der Greifer wird gemäß [Tabelle unten](#details-for-square) aktiviert.
 1.4. Die Bewegung wird in einer Schleife fortgesetzt: 1-2-3-5-1...
-2. **Halten**
+2. **Hold**
 2.1 Wird die Schaltfläche Halten auf der Node-RED-Bedienoberfläche UI gedrückt, werden die Achsen sofort mit dem Befehl FB_Stop gestoppt.
 2.2 Wird die Schaltfläche Unhold auf der Node-RED-Bedienoberfläche UI gedrückt, startet das System die Ausführungssequenz neu.
-3. **Unterbrechen**
+3. **Suspend**
 3.1. Nach drei Bewegungszyklen wird das Programm für drei Sekunden unterbrochen, anschließend für drei weitere Zyklen neu gestartet usw.
 3.2. Die Unterbrechung muss durch einen Unterbrechungsalarm ausgelöst werden.
 4. **Warning**
@@ -134,12 +137,17 @@ Wir können auch Complete testen. Dieser sollte durch einen Reset neu gestartet 
 |4  |100               |50      |eClose      |0          |1      |
 |1  |0                 |50      |eOpen       |500        |2      |
 
+-  Velocity_m_s        := 0.05;
+-  Acceleleration_m_s2 := 1;
+-  Jerk_m_s3           := 10;
+
+<div style="text-align: center;">
 <figure>
     <img src="./img/DriveSquare.png"
          alt="Image Lost DriveSquare">
     <figcaption>2D motion with a square</figcaption>
 </figure>
-
+</div>
 ## Documentation
 
 -   [For Gripper Function Blocks online](FB_Gripper.md)

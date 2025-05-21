@@ -21,6 +21,8 @@ Author: [Cédric Lenoir](mailto:cedric.lenoir@hevs.ch)
 -   Vous devez travailler uniquement dans **PRG_Student**.
 -   **PRG_Student** est un module parmi d'autres.
 -   Les modules d'axes servent à gérer la mise sous couple des moteurs et inversement vous n'avez pas à le faire.
+-  Un bref aperçu de [FB_Stop](MC_MoveAbsolute_AND_MC_Stop.md) et [FB_MoveAbsolute](MC_MoveAbsolute_AND_MC_Stop.md).
+-  [Documentation](#documentation).
 
 ### Sécurité
 L'axe Z est prévu pour remonter pendant la phase de Resetting afin d'éviter les risques de Crash.
@@ -161,6 +163,7 @@ On peut aussi tester Complete qui devrait pouvoir repartir en resetting avec un 
 -   [HEVS PackTag User Interface](HEVS_PackTag_UI.md)
 -   [HEVS Alarms](FB_HEVS_SetAlarm.md)
 -   [HEVS Warnings](FB_HEVS_SetWarning.md)
+-   [MC_Stop & MC_MoveAbsolute](MC_MoveAbsolute_AND_MC_Stop.md)
 
 
 ### About Programs

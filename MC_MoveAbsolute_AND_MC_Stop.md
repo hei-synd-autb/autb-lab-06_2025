@@ -10,16 +10,18 @@ Course AutB
 
 Author: [Cédric Lenoir](mailto:cedric.lenoir@hevs.ch)
 
-# Some PLCopen Function Blocks
+# MC_Stop & MC_MoveAbsolute
 
-# Main function blocks PLCopen
+- [AXIS_REF](#axis_ref)
+- [MC_MoveAbsolute](#mc_moveabsolute)
+- [MC_Stop](#mc_stop)
 
 ## AXIS_REF
-On a typiquement un accès de type ``VAR_IN_OUT`` qui fournit à chaque ``Function Block`` un axe référencé dans le noyau **Motion Control**.
+Typically, we have a **VAR_IN_OUT** access type that provides each Function Block with an axis referenced in the Motion Control kernel.
 
-Dans le système à notre disposition, on utilise une fonction spécifique qui permet de récupérer la référence à la structure pour ``AXIS_REF``.
+In our system, we use a specific function that retrieves the reference to the structure for **AXIS_REF**.
 
-Voir dans ``GVL_AxisDefines``
+See ``GVL_AxisDefines``.
 
 ```iecst
 VAR_GLOBAL
@@ -29,15 +31,20 @@ VAR_GLOBAL
 END_VAR
 ```
 
-> ``Axis_1`` fait référence à un axe défini dans le noyau NC du ctrlX Core.
+> ``Axis_1`` refers to an axis defined in the NC kernel of the ctrlX Core.
 
-C'est la variable ``X_Axis``, qui est utilisée obligatoirement lors de l'appel d'un FB pour le Motion Control, par exemple pour ``MC_Stop``: 
+This is the ``X_Axis`` variable, which is required when calling a Motion Control FB, for example, for ``MC_Stop`` or MC_MoveAbsolute:
 
 ```iecst
 
 mcStop(Axis := GVL_AxisDefines.X_Axis,
        Deceleration := 1,
-       Execute := stPlcOpenFbs.bStop);
+       Execute := stPlcOpenFbs.xStop);
+
+mcMoveAbs(Axis := GVL_AxisDefines.X_Axis,
+          Position := 55,
+          Velocity := 0.1,
+          Execute := stPlcOpenFbs.xStartMotionOne);
 ```
 
 ## MC_MoveAbsolute

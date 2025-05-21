@@ -101,27 +101,29 @@ Das bedeutet, dass beide Funktionsbausteine ​​in allen anderen Zuständen ve
 
 ## URS-Benutzeranforderungsspezifikation
 
-0. **Starting**
-0.1 In diesem Zustand werden die X- und Z-Achsen bei **X = -100** und **Z = 100** positioniert.
-0.2 Wenn beide Achsen in Position sind, wechseln wir zu „Ausführen“.
-1. **Execute**
-1.1 Die X- und Z-Achsen müssen sich gemäß Tabelle und [Zeichnung unten](#details-for-square) bewegen.
-1.2. Geschwindigkeit, Beschleunigung und Ruck können über die Bedienoberfläche (HMI) variiert werden.
-1.3. Der Greifer wird gemäß [Tabelle unten](#details-for-square) aktiviert.
-1.4. Die Bewegung wird in einer Schleife fortgesetzt: 1-2-3-5-1...
-2. **Hold**
-2.1 Wird die Schaltfläche Halten auf der Node-RED-Bedienoberfläche UI gedrückt, werden die Achsen sofort mit dem Befehl FB_Stop gestoppt.
-2.2 Wird die Schaltfläche Unhold auf der Node-RED-Bedienoberfläche UI gedrückt, startet das System die Ausführungssequenz neu.
-3. **Suspend**
-3.1. Nach drei Bewegungszyklen wird das Programm für drei Sekunden unterbrochen, anschließend für drei weitere Zyklen neu gestartet usw.
-3.2. Die Unterbrechung muss durch einen Unterbrechungsalarm ausgelöst werden.
-4. **Warning**
-4.1. Im Zustand „Abgebrochen“ bedeutet dies, dass zum Starten eine Löschung erforderlich ist.
-4.2. Im Zustand „Gestoppt“ bedeutet dies, dass zum Starten ein Reset erforderlich ist.
-4.3. Im Zustand „Gehalten“ bedeutet dies, dass zum Starten ein Aufheben der Unterbrechung erforderlich ist.
-5. **Greiferalarm**
-5.1. Wenn die Druckluft abgeschaltet wird und der Greifer nicht schließt, wird ein Stoppalarm mit einer Meldung generiert.
-5.2. Wenn die Druckluft abgeschaltet wird und der Greifer nicht öffnet, wird ein Stoppalarm mit einer Meldung generiert.
+|URS ID |Specification|
+|-------|-------------|
+|0. |**Starting**|
+|0.1 |In diesem Zustand werden die X- und Z-Achsen bei **X = -100** und **Z = 100** positioniert.|
+|0.2 |Wenn beide Achsen in Position sind, wechseln wir zu „Ausführen“.|
+|1. |**Execute**|
+|1.1 |Die X- und Z-Achsen müssen sich gemäß Tabelle und [Zeichnung unten](#details-for-square) bewegen.|
+|1.2. |Geschwindigkeit, Beschleunigung und Ruck können über die Bedienoberfläche (HMI) variiert werden.|
+|1.3. |Der Greifer wird gemäß [Tabelle unten](#details-for-square) aktiviert.|
+|1.4. |Die Bewegung wird in einer Schleife fortgesetzt: 1-2-3-5-1...|
+|2. |**Hold**|
+|2.1 |Wird die Schaltfläche Halten auf der Node-RED-Bedienoberfläche UI gedrückt, werden die Achsen sofort mit dem Befehl FB_Stop gestoppt.|
+|2.2 |Wird die Schaltfläche Unhold auf der Node-RED-Bedienoberfläche UI gedrückt, startet das System die Ausführungssequenz neu.|
+|3. |**Suspend**|
+|3.1. |Nach drei Bewegungszyklen wird das Programm für drei Sekunden unterbrochen, anschließend für drei weitere Zyklen neu gestartet usw.|
+|3.2. |Die Unterbrechung muss durch einen Unterbrechungsalarm ausgelöst werden.|
+|4. |**Warning**|
+|4.1. |Im Zustand „Abgebrochen“ bedeutet dies, dass zum Starten eine Löschung erforderlich ist.|
+|4.2. |Im Zustand „Gestoppt“ bedeutet dies, dass zum Starten ein Reset erforderlich ist.|
+|4.3. |Im Zustand „Gehalten“ bedeutet dies, dass zum Starten ein Aufheben der Unterbrechung erforderlich ist.|
+|5. |**Greiferalarm**|
+|5.1. |Wenn die Druckluft abgeschaltet wird und der Greifer nicht schließt, wird ein Stoppalarm mit einer Meldung generiert.|
+|5.2. |Wenn die Druckluft abgeschaltet wird und der Greifer nicht öffnet, wird ein Stoppalarm mit einer Meldung generiert.|
 
 ### Zusätzliche Informationen
 Wir können auch Complete testen. Dieser sollte durch einen Reset neu gestartet werden können.

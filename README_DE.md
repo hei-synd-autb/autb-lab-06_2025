@@ -65,9 +65,11 @@ END_IF
 Der mcMoveAbs-FB wird außerhalb der State Machine aufgerufen, sodass er immer aufgerufen wird und nicht in einem unbestimmten Zustand verbleibt.
 
 ```iecst
-mcMoveAbs.Execute := (axisExecute = E_AxisExecute.eSetAbsolutePosition) OR
-                     (axisResetting = E_AxisResetting.eMotionResetPos) 	OR
-                     (axisStarting = E_AxisStarting.eMotionStarting);
+mcMoveAbs.Execute := (axisResetting = E_AxisResetting.eMotionResetPos);
+mcMoveAbs(Position := 100,
+          Velocity := 0.1,
+          Acceleration := 1,
+          Deceleration := 1);
 
 ```
 

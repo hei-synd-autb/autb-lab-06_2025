@@ -21,6 +21,8 @@ Author: [Cédric Lenoir](mailto:cedric.lenoir@hevs.ch)
 -   Vous devez travailler uniquement dans **PRG_Student**.
 -   **PRG_Student** est un module parmi d'autres.
 -   Les modules d'axes servent à gérer la mise sous couple des moteurs et inversement vous n'avez pas à le faire.
+-  Un bref aperçu de [FB_Stop](MC_MoveAbsolute_AND_MC_Stop.md) et [FB_MoveAbsolute](MC_MoveAbsolute_AND_MC_Stop.md).
+-  [Documentation](#documentation).
 
 ### Sécurité
 L'axe Z est prévu pour remonter pendant la phase de Resetting afin d'éviter les risques de Crash.
@@ -103,27 +105,29 @@ Ce qui signifie que les deux Function Blocks peuvent être utilisés dans tous l
 ## URS User Request Specification
 
 
-0. Starting
-0.1   Dans cet état, les axes X et Z vont se positionner aux positions **X = -100** et **Z = 100**.
-0.2   Quand les deux axes sont en position, on passe en Execute.
-1. **Execute**
-1.1 Les axes X et Z doivent se déplacer selon le tableau et [dessin ci-dessous](#details-for-square).
-1.2. On peut varier la vitesse, l'accélération et le jerk depuis le HMI.
-1.3. Le gripper est activé selon le [tableau ci-dessous](#details-for-square).
-1.4. Le mouvement continue en boucle, 1-2-3-5-1...
-2. **Hold**
-2.1 Si on appuie sur le bouton Hold du HMI Node-RED, les axes sont stoppés immédiatement avec le FB_Stop.
-2.2 Si on appuie sur le bouton Unhold du HMI Node-RED, le système recommence la séquence Execute.
-3. **Suspend**
-3.1. Après 3 cycles de mouvements, le programme passe en Suspended pendant 3 secondes, puis recommence pour 3 cycles supplémentaire et ainsi de suite.
-3.2. L'action Suspended doit être activée par une **alarme** de niveau Suspend.
-4. **Warnings**
-4.1. En Aborted, on indique qu'il faut un clearing pour démarrer.
-4.2. En Stopped, on indique qu'il faut un reset pour démarrer.
-4.3. En Held, on indique qu'il faut un unhold pour démarrer.
-5. **Alarm Gripper**
-5.1 Si on coupe l'air comprimé et que le gripper ne se ferme pas, on génère une alarme de niveau Stoppe avec un message.
-5.2 Si on coupe l'air comprimé et que le gripper ne s'ouvre pas, on génère une alarme de niveau Stoppe avec un message.
+|URS ID |Specification|
+|-------|-------------|
+|0. |Starting|
+|0.1   |Dans cet état, les axes X et Z vont se positionner aux positions **X = -100** et **Z = 100**.|
+|0.2   |Quand les deux axes sont en position, on passe en Execute.|
+|1. |**Execute**|
+|1.1 |Les axes X et Z doivent se déplacer selon le tableau et [dessin ci-dessous](#details-for-square).|
+|1.2. |On peut varier la vitesse, l'accélération et le jerk depuis le HMI.|
+|1.3. |Le gripper est activé selon le [tableau ci-dessous](#details-for-square).|
+|1.4. |Le mouvement continue en boucle, 1-2-3-5-1...|
+|2. |**Hold**|
+|2.1 |Si on appuie sur le bouton Hold du HMI Node-RED, les axes sont stoppés immédiatement avec le FB_Stop.|
+|2.2 |Si on appuie sur le bouton Unhold du HMI Node-RED, le système recommence la séquence Execute.|
+|3. |**Suspend**|
+|3.1. |Après 3 cycles de mouvements, le programme passe en Suspended pendant 3 secondes, puis recommence pour 3 cycles supplémentaire et ainsi de suite.|
+|3.2. |L'action Suspended doit être activée par une **alarme** de niveau Suspend.|
+|4. |**Warnings**|
+|4.1. |En Aborted, on indique qu'il faut un clearing pour démarrer.|
+|4.2. |En Stopped, on indique qu'il faut un reset pour démarrer.|
+|4.3. |En Held, on indique qu'il faut un unhold pour démarrer.|
+|5. |**Alarm Gripper**|
+|5.1 |Si on coupe l'air comprimé et que le gripper ne se ferme pas, on génère une alarme de niveau Stoppe avec un message.|
+|5.2 |Si on coupe l'air comprimé et que le gripper ne s'ouvre pas, on génère une alarme de niveau Stoppe avec un message.|
 
 
 ### Complément
@@ -159,6 +163,7 @@ On peut aussi tester Complete qui devrait pouvoir repartir en resetting avec un 
 -   [HEVS PackTag User Interface](HEVS_PackTag_UI.md)
 -   [HEVS Alarms](FB_HEVS_SetAlarm.md)
 -   [HEVS Warnings](FB_HEVS_SetWarning.md)
+-   [MC_Stop & MC_MoveAbsolute](MC_MoveAbsolute_AND_MC_Stop.md)
 
 
 ### About Programs

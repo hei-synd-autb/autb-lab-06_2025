@@ -2286,7 +2286,7 @@
         "g": "9a1553f8c3041295",
         "name": "CPU Usage",
         "group": "6f4d4cc842955c98",
-        "order": 1,
+        "order": 2,
         "width": 3,
         "height": 3,
         "gtype": "gauge-half",
@@ -2673,6 +2673,93 @@
                 "6783bc468d29d40e"
             ]
         ]
+    },
+    {
+        "id": "a437644f01bd51db",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "f479262664cd75e2",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PackTag/Status/Parameter_Dint/1/Value",
+        "name": "",
+        "inputs": 0,
+        "x": 220,
+        "y": 1140,
+        "wires": [
+            [
+                "cb3a709f628c1950",
+                "c3bdb1e36e6c4287"
+            ]
+        ]
+    },
+    {
+        "id": "cb3a709f628c1950",
+        "type": "ui-text",
+        "z": "f479262664cd75e2",
+        "group": "6f4d4cc842955c98",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "Cycles",
+        "label": "text",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 750,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "c3bdb1e36e6c4287",
+        "type": "debug",
+        "z": "f479262664cd75e2",
+        "name": "debug 7",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "17396b30fe91899e",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "f479262664cd75e2",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PackTag/Status/Parameter_Dint/1",
+        "name": "",
+        "inputs": 0,
+        "x": 200,
+        "y": 1240,
+        "wires": [
+            [
+                "43f98158676c662d"
+            ]
+        ]
+    },
+    {
+        "id": "43f98158676c662d",
+        "type": "debug",
+        "z": "f479262664cd75e2",
+        "name": "debug 8",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 1240,
+        "wires": []
     },
     {
         "id": "69a1382792d493e5",

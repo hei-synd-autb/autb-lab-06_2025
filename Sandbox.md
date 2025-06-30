@@ -1,29 +1,31 @@
-Notes de rédaction.
+```pascal
+PackTag.Status.Parameter_Lreal[5].ID := 1001;
+PackTag.Status.Parameter_Lreal[5].Name := 'Axes Velocity';
+PackTag.Status.Parameter_Lreal[5].Unit := 'm/s';
+PackTag.Status.Parameter_Lreal[5].Value := PRG_Process.stSetParam.rVelocity_m_s;
 
-Parti du module 05
+PackTag.Status.Parameter_Lreal[6].ID := 1002;
+PackTag.Status.Parameter_Lreal[6].Name := 'Axes Velocity';
+PackTag.Status.Parameter_Lreal[6].Unit := 'm/s';
+PackTag.Status.Parameter_Lreal[6].Value := PRG_Process.stSetParam.rVelocity_m_s;
 
-plc/app/Application/sym/PackTag/hevsUI/uiCmdHold
+PackTag.Status.Parameter_Lreal[7].ID := 1003;
+PackTag.Status.Parameter_Lreal[7].Name := 'Axes Velocity';
+PackTag.Status.Parameter_Lreal[7].Unit := 'm/s';
+PackTag.Status.Parameter_Lreal[7].Value := PRG_Process.stSetParam.rVelocity_m_s;
 
+PackTag.Status.Parameter_Lreal[8].ID := 1004;
+PackTag.Status.Parameter_Lreal[8].Name := 'Axes Velocity';
+PackTag.Status.Parameter_Lreal[8].Unit := 'm/s';
+PackTag.Status.Parameter_Lreal[8].Value := PRG_Process.stSetParam.rVelocity_m_s;
 
+PackTag.Status.Parameter_Lreal[9].ID := 1005;
+PackTag.Status.Parameter_Lreal[9].Name := 'Axes Velocity';
+PackTag.Status.Parameter_Lreal[9].Unit := 'm/s';
+PackTag.Status.Parameter_Lreal[9].Value := PRG_Process.stSetParam.rVelocity_m_s;
 
-Pour chaque état, sauf pour Execute, on veut un warning qui nous informe que faire pour passer à la suite.
-
-On veut un alarme après 10 cycles qui provoque un Suspend en attendant la suite.
-
-Si le gripper ne se ferme pas ou ne s'ouvre pas, on stoppe la machine avec une alarme.
-
-
-On veut un warning si le système est en Hold et indiquer comment redémarrer.
-On veut un warning si le système est en 
-
-Avec un hold, on arrête à la fin du mouvement.
-
-Essayer MC_SetOverride pour un Hold, se débrouiller pour le trouver dans la documentation.
-Library Manager --> CXA_PLCOPEN.
-
-Utiliser une variable globale
-
-PackTag.hevsUI.uiCmdSuspend,
-                   Unsuspend := PackTag.hevsUI.uiCmdUnsuspend,
-
-GVL_Abox.uaAboxInterface                   
+PackTag.Status.Parameter_Lreal[10].ID := 1006;
+PackTag.Status.Parameter_Lreal[10].Name := 'Axes Velocity';
+PackTag.Status.Parameter_Lreal[10].Unit := 'm/s';
+PackTag.Status.Parameter_Lreal[10].Value := PRG_Process.stSetParam.rVelocity_m_s;
+```

@@ -13,6 +13,12 @@ Author: [Cédric Lenoir](mailto:cedric.lenoir@hevs.ch)
 # LAB 06 Pack & PLCopen
 [Die deutsche Version ist hier verfügbar:](README_DE.md)
 
+## Version
+-  CtrlX PLC: 2.6.7
+-  Node RED : 4.0.5
+-  @flowfuse/node-red-dashboard: 1.24.2
+-  node-red-contrib-ctrlx-automation: 1.9.8
+
 ## Objectif du travail pratique
 -   [ ] Utiliser des Function Block du type PLCopen dans un contexte PackML
 -   [ ] Implémenter des alarmes et des warnings pour surveiller le système.

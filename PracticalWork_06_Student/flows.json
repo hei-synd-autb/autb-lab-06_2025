@@ -40,6 +40,14 @@
         "env": []
     },
     {
+        "id": "016306c2d57be25e",
+        "type": "tab",
+        "label": "Parameters",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "6ccb574154e3475d",
         "type": "group",
         "z": "66b713bff26c6577",
@@ -627,7 +635,7 @@
         "ui": "926d3079c9560d19",
         "path": "/robot",
         "icon": "robot-happy-outline",
-        "layout": "grid",
+        "layout": "notebook",
         "theme": "8966a7b403a8fb88",
         "breakpoints": [
             {
@@ -791,18 +799,20 @@
         "type": "ui-base",
         "name": "Home",
         "path": "/dashboard",
-        "appIcon": "",
+        "appIcon": "factory",
         "includeClientData": true,
         "acceptsClientConfig": [
             "ui-notification",
             "ui-control"
         ],
         "showPathInSidebar": false,
-        "navigationStyle": "default",
+        "headerContent": "page",
+        "navigationStyle": "fixed",
         "titleBarStyle": "default",
         "showReconnectNotification": true,
         "notificationDisplayTime": "1",
-        "showDisconnectNotification": true
+        "showDisconnectNotification": true,
+        "allowInstall": true
     },
     {
         "id": "328b4649a9ced4a0",
@@ -810,7 +820,7 @@
         "name": "Alarms",
         "ui": "926d3079c9560d19",
         "path": "/page4",
-        "icon": "home",
+        "icon": "alarm-light",
         "layout": "grid",
         "theme": "8966a7b403a8fb88",
         "breakpoints": [
@@ -904,6 +914,56 @@
         "width": "6",
         "height": "1",
         "order": 4,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "937ec03369986b60",
+        "type": "ui-page",
+        "name": "Parameters",
+        "ui": "926d3079c9560d19",
+        "path": "/Tests",
+        "icon": "cog",
+        "layout": "grid",
+        "theme": "8966a7b403a8fb88",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 4,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "85c716cf325ed57c",
+        "type": "ui-group",
+        "name": "Test_Param",
+        "page": "937ec03369986b60",
+        "width": "6",
+        "height": "1",
+        "order": 1,
         "showTitle": true,
         "className": "",
         "visible": "true",
@@ -2132,7 +2192,9 @@
         "x": 570,
         "y": 260,
         "wires": [
-            []
+            [
+                "c29d9336b0c77903"
+            ]
         ]
     },
     {
@@ -2286,7 +2348,7 @@
         "g": "9a1553f8c3041295",
         "name": "CPU Usage",
         "group": "6f4d4cc842955c98",
-        "order": 2,
+        "order": 1,
         "width": 3,
         "height": 3,
         "gtype": "gauge-half",
@@ -2675,90 +2737,20 @@
         ]
     },
     {
-        "id": "a437644f01bd51db",
-        "type": "ctrlx-datalayer-subscribe",
-        "z": "f479262664cd75e2",
-        "subscription": "c5b0190b901ecb86",
-        "path": "plc/app/Application/sym/PackTag/Status/Parameter_Dint/1/Value",
-        "name": "",
-        "inputs": 0,
-        "x": 220,
-        "y": 1140,
-        "wires": [
-            [
-                "cb3a709f628c1950",
-                "c3bdb1e36e6c4287"
-            ]
-        ]
-    },
-    {
-        "id": "cb3a709f628c1950",
-        "type": "ui-text",
-        "z": "f479262664cd75e2",
-        "group": "6f4d4cc842955c98",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "name": "Cycles",
-        "label": "text",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#717171",
-        "wrapText": false,
-        "className": "",
-        "x": 750,
-        "y": 1140,
-        "wires": []
-    },
-    {
-        "id": "c3bdb1e36e6c4287",
+        "id": "c29d9336b0c77903",
         "type": "debug",
         "z": "f479262664cd75e2",
-        "name": "debug 7",
+        "name": "Start msg",
         "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "false",
+        "complete": "true",
+        "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 740,
-        "y": 1200,
-        "wires": []
-    },
-    {
-        "id": "17396b30fe91899e",
-        "type": "ctrlx-datalayer-subscribe",
-        "z": "f479262664cd75e2",
-        "subscription": "c5b0190b901ecb86",
-        "path": "plc/app/Application/sym/PackTag/Status/Parameter_Dint/1",
-        "name": "",
-        "inputs": 0,
-        "x": 200,
-        "y": 1240,
-        "wires": [
-            [
-                "43f98158676c662d"
-            ]
-        ]
-    },
-    {
-        "id": "43f98158676c662d",
-        "type": "debug",
-        "z": "f479262664cd75e2",
-        "name": "debug 8",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 540,
-        "y": 1240,
+        "x": 800,
+        "y": 260,
         "wires": []
     },
     {
@@ -3859,576 +3851,6 @@
         "wires": []
     },
     {
-        "id": "8d1d940b648c9a3c",
-        "type": "ctrlx-datalayer-subscribe",
-        "z": "be674fbaa829df8f",
-        "subscription": "c5b0190b901ecb86",
-        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/arListAlarms/0",
-        "name": "",
-        "inputs": 0,
-        "x": 290,
-        "y": 100,
-        "wires": [
-            [
-                "72faa985eb343a7a"
-            ]
-        ]
-    },
-    {
-        "id": "72faa985eb343a7a",
-        "type": "ui-text",
-        "z": "be674fbaa829df8f",
-        "group": "7d8adc78da567ef2",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Alarm 0 : ",
-        "format": "{{msg.payload}}",
-        "layout": "row-left",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#717171",
-        "wrapText": false,
-        "className": "",
-        "x": 600,
-        "y": 100,
-        "wires": []
-    },
-    {
-        "id": "d932b6b0e1482790",
-        "type": "ctrlx-datalayer-subscribe",
-        "z": "be674fbaa829df8f",
-        "subscription": "c5b0190b901ecb86",
-        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/arListAlarms/1",
-        "name": "",
-        "inputs": 0,
-        "x": 290,
-        "y": 160,
-        "wires": [
-            [
-                "22d5c664bb95af09"
-            ]
-        ]
-    },
-    {
-        "id": "22d5c664bb95af09",
-        "type": "ui-text",
-        "z": "be674fbaa829df8f",
-        "group": "7d8adc78da567ef2",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Alarm 1 : ",
-        "format": "{{msg.payload}}",
-        "layout": "row-left",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#717171",
-        "wrapText": false,
-        "className": "",
-        "x": 600,
-        "y": 160,
-        "wires": []
-    },
-    {
-        "id": "c66ac2aa83086a26",
-        "type": "ctrlx-datalayer-subscribe",
-        "z": "be674fbaa829df8f",
-        "subscription": "c5b0190b901ecb86",
-        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/arListAlarms/2",
-        "name": "",
-        "inputs": 0,
-        "x": 290,
-        "y": 220,
-        "wires": [
-            [
-                "8c68609d6b8e15ca"
-            ]
-        ]
-    },
-    {
-        "id": "8c68609d6b8e15ca",
-        "type": "ui-text",
-        "z": "be674fbaa829df8f",
-        "group": "7d8adc78da567ef2",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Alarm 2 : ",
-        "format": "{{msg.payload}}",
-        "layout": "row-left",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#717171",
-        "wrapText": false,
-        "className": "",
-        "x": 600,
-        "y": 220,
-        "wires": []
-    },
-    {
-        "id": "07e6ff64f1b54d48",
-        "type": "ctrlx-datalayer-subscribe",
-        "z": "be674fbaa829df8f",
-        "subscription": "c5b0190b901ecb86",
-        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/arListAlarms/3",
-        "name": "",
-        "inputs": 0,
-        "x": 290,
-        "y": 280,
-        "wires": [
-            [
-                "85a38a11770a4956"
-            ]
-        ]
-    },
-    {
-        "id": "85a38a11770a4956",
-        "type": "ui-text",
-        "z": "be674fbaa829df8f",
-        "group": "7d8adc78da567ef2",
-        "order": 4,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Alarm 3 : ",
-        "format": "{{msg.payload}}",
-        "layout": "row-left",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#717171",
-        "wrapText": false,
-        "className": "",
-        "x": 600,
-        "y": 280,
-        "wires": []
-    },
-    {
-        "id": "782e5e4dbd47467e",
-        "type": "ctrlx-datalayer-subscribe",
-        "z": "be674fbaa829df8f",
-        "subscription": "c5b0190b901ecb86",
-        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/arListAlarms/4",
-        "name": "",
-        "inputs": 0,
-        "x": 290,
-        "y": 340,
-        "wires": [
-            [
-                "fd9550d49827334f"
-            ]
-        ]
-    },
-    {
-        "id": "fd9550d49827334f",
-        "type": "ui-text",
-        "z": "be674fbaa829df8f",
-        "group": "7d8adc78da567ef2",
-        "order": 5,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Alarm 4 : ",
-        "format": "{{msg.payload}}",
-        "layout": "row-left",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#717171",
-        "wrapText": false,
-        "className": "",
-        "x": 600,
-        "y": 340,
-        "wires": []
-    },
-    {
-        "id": "60b9c44354f22972",
-        "type": "ctrlx-datalayer-subscribe",
-        "z": "be674fbaa829df8f",
-        "subscription": "c5b0190b901ecb86",
-        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/arListAlarmsHistory/0",
-        "name": "",
-        "inputs": 0,
-        "x": 270,
-        "y": 420,
-        "wires": [
-            [
-                "cf74e3a714686e8e"
-            ]
-        ]
-    },
-    {
-        "id": "cf74e3a714686e8e",
-        "type": "ui-text",
-        "z": "be674fbaa829df8f",
-        "group": "5794c6df8ea5c237",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Alarm History 0 : ",
-        "format": "{{msg.payload}}",
-        "layout": "row-left",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#717171",
-        "wrapText": false,
-        "className": "",
-        "x": 620,
-        "y": 420,
-        "wires": []
-    },
-    {
-        "id": "e5e07e7eee393bd5",
-        "type": "ctrlx-datalayer-subscribe",
-        "z": "be674fbaa829df8f",
-        "subscription": "c5b0190b901ecb86",
-        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/arListAlarmsHistory/1",
-        "name": "",
-        "inputs": 0,
-        "x": 270,
-        "y": 480,
-        "wires": [
-            [
-                "b82ecd6f11e0b2c6"
-            ]
-        ]
-    },
-    {
-        "id": "b82ecd6f11e0b2c6",
-        "type": "ui-text",
-        "z": "be674fbaa829df8f",
-        "group": "5794c6df8ea5c237",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Alarm History 1 : ",
-        "format": "{{msg.payload}}",
-        "layout": "row-left",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#717171",
-        "wrapText": false,
-        "className": "",
-        "x": 620,
-        "y": 480,
-        "wires": []
-    },
-    {
-        "id": "7668aa0117404802",
-        "type": "ctrlx-datalayer-subscribe",
-        "z": "be674fbaa829df8f",
-        "subscription": "c5b0190b901ecb86",
-        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/arListAlarmsHistory/2",
-        "name": "",
-        "inputs": 0,
-        "x": 270,
-        "y": 540,
-        "wires": [
-            [
-                "d8fcbe890110b1c9"
-            ]
-        ]
-    },
-    {
-        "id": "d8fcbe890110b1c9",
-        "type": "ui-text",
-        "z": "be674fbaa829df8f",
-        "group": "5794c6df8ea5c237",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Alarm History 2 : ",
-        "format": "{{msg.payload}}",
-        "layout": "row-left",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#717171",
-        "wrapText": false,
-        "className": "",
-        "x": 620,
-        "y": 540,
-        "wires": []
-    },
-    {
-        "id": "7e74e70692697fe6",
-        "type": "ctrlx-datalayer-subscribe",
-        "z": "be674fbaa829df8f",
-        "subscription": "c5b0190b901ecb86",
-        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/arListAlarmsHistory/3",
-        "name": "",
-        "inputs": 0,
-        "x": 270,
-        "y": 600,
-        "wires": [
-            [
-                "a5347a4462933a0f"
-            ]
-        ]
-    },
-    {
-        "id": "a5347a4462933a0f",
-        "type": "ui-text",
-        "z": "be674fbaa829df8f",
-        "group": "5794c6df8ea5c237",
-        "order": 4,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Alarm History 3 : ",
-        "format": "{{msg.payload}}",
-        "layout": "row-left",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#717171",
-        "wrapText": false,
-        "className": "",
-        "x": 620,
-        "y": 600,
-        "wires": []
-    },
-    {
-        "id": "f2426ddc9df8cabd",
-        "type": "ctrlx-datalayer-subscribe",
-        "z": "be674fbaa829df8f",
-        "subscription": "c5b0190b901ecb86",
-        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/arListAlarmsHistory/4",
-        "name": "",
-        "inputs": 0,
-        "x": 270,
-        "y": 660,
-        "wires": [
-            [
-                "6837a014b4382d39"
-            ]
-        ]
-    },
-    {
-        "id": "6837a014b4382d39",
-        "type": "ui-text",
-        "z": "be674fbaa829df8f",
-        "group": "5794c6df8ea5c237",
-        "order": 5,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Alarm History 4 : ",
-        "format": "{{msg.payload}}",
-        "layout": "row-left",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#717171",
-        "wrapText": false,
-        "className": "",
-        "x": 620,
-        "y": 660,
-        "wires": []
-    },
-    {
-        "id": "11a32f02df3f37ef",
-        "type": "ctrlx-datalayer-subscribe",
-        "z": "be674fbaa829df8f",
-        "subscription": "c5b0190b901ecb86",
-        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/arListWarnings/0",
-        "name": "",
-        "inputs": 0,
-        "x": 280,
-        "y": 740,
-        "wires": [
-            [
-                "ceaf9bf90861414e"
-            ]
-        ]
-    },
-    {
-        "id": "ceaf9bf90861414e",
-        "type": "ui-text",
-        "z": "be674fbaa829df8f",
-        "group": "3d6ba5b3b7bc8bec",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Alarm Warning 0 : ",
-        "format": "{{msg.payload}}",
-        "layout": "row-left",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#717171",
-        "wrapText": false,
-        "className": "",
-        "x": 630,
-        "y": 740,
-        "wires": []
-    },
-    {
-        "id": "e5aa71db054a4ee0",
-        "type": "ctrlx-datalayer-subscribe",
-        "z": "be674fbaa829df8f",
-        "subscription": "c5b0190b901ecb86",
-        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/arListWarnings/1",
-        "name": "",
-        "inputs": 0,
-        "x": 280,
-        "y": 800,
-        "wires": [
-            [
-                "67189cdd9efeb461"
-            ]
-        ]
-    },
-    {
-        "id": "67189cdd9efeb461",
-        "type": "ui-text",
-        "z": "be674fbaa829df8f",
-        "group": "3d6ba5b3b7bc8bec",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Alarm Warning 1 : ",
-        "format": "{{msg.payload}}",
-        "layout": "row-left",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#717171",
-        "wrapText": false,
-        "className": "",
-        "x": 630,
-        "y": 800,
-        "wires": []
-    },
-    {
-        "id": "20c7a94e727603b1",
-        "type": "ctrlx-datalayer-subscribe",
-        "z": "be674fbaa829df8f",
-        "subscription": "c5b0190b901ecb86",
-        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/arListWarnings/2",
-        "name": "",
-        "inputs": 0,
-        "x": 280,
-        "y": 860,
-        "wires": [
-            [
-                "979e8fa8bdeb2a8c"
-            ]
-        ]
-    },
-    {
-        "id": "979e8fa8bdeb2a8c",
-        "type": "ui-text",
-        "z": "be674fbaa829df8f",
-        "group": "3d6ba5b3b7bc8bec",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Alarm Warning 2 : ",
-        "format": "{{msg.payload}}",
-        "layout": "row-left",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#717171",
-        "wrapText": false,
-        "className": "",
-        "x": 630,
-        "y": 860,
-        "wires": []
-    },
-    {
-        "id": "0928d15373108a70",
-        "type": "ctrlx-datalayer-subscribe",
-        "z": "be674fbaa829df8f",
-        "subscription": "c5b0190b901ecb86",
-        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/arListWarnings/3",
-        "name": "",
-        "inputs": 0,
-        "x": 280,
-        "y": 920,
-        "wires": [
-            [
-                "c57573cadf1bf7af"
-            ]
-        ]
-    },
-    {
-        "id": "c57573cadf1bf7af",
-        "type": "ui-text",
-        "z": "be674fbaa829df8f",
-        "group": "3d6ba5b3b7bc8bec",
-        "order": 4,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Alarm Warning 3 : ",
-        "format": "{{msg.payload}}",
-        "layout": "row-left",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#717171",
-        "wrapText": false,
-        "className": "",
-        "x": 630,
-        "y": 920,
-        "wires": []
-    },
-    {
-        "id": "60731a966f3bfcfb",
-        "type": "ctrlx-datalayer-subscribe",
-        "z": "be674fbaa829df8f",
-        "subscription": "c5b0190b901ecb86",
-        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/arListWarnings/4",
-        "name": "",
-        "inputs": 0,
-        "x": 280,
-        "y": 980,
-        "wires": [
-            [
-                "de6d3eb05ec33c37"
-            ]
-        ]
-    },
-    {
-        "id": "de6d3eb05ec33c37",
-        "type": "ui-text",
-        "z": "be674fbaa829df8f",
-        "group": "3d6ba5b3b7bc8bec",
-        "order": 5,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Alarm Warning 4 : ",
-        "format": "{{msg.payload}}",
-        "layout": "row-left",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#717171",
-        "wrapText": false,
-        "className": "",
-        "x": 630,
-        "y": 980,
-        "wires": []
-    },
-    {
         "id": "82fae2f45a487614",
         "type": "ui-switch",
         "z": "be674fbaa829df8f",
@@ -4454,8 +3876,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 830,
-        "y": 100,
+        "x": 130,
+        "y": 280,
         "wires": [
             [
                 "76a26758f69f5fbc"
@@ -4473,8 +3895,8 @@
         "name": "Abort",
         "pendingWarnLevel": 50,
         "pendingErrorLevel": 100,
-        "x": 1190,
-        "y": 100,
+        "x": 490,
+        "y": 280,
         "wires": [
             []
         ]
@@ -4505,8 +3927,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 830,
-        "y": 160,
+        "x": 130,
+        "y": 340,
         "wires": [
             [
                 "9b594bcd0bc97df9"
@@ -4524,8 +3946,8 @@
         "name": "Stop",
         "pendingWarnLevel": 50,
         "pendingErrorLevel": 100,
-        "x": 1190,
-        "y": 160,
+        "x": 490,
+        "y": 340,
         "wires": [
             []
         ]
@@ -4556,8 +3978,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 830,
-        "y": 220,
+        "x": 130,
+        "y": 400,
         "wires": [
             [
                 "d4d9ddda40431e5d"
@@ -4575,8 +3997,8 @@
         "name": "Hold",
         "pendingWarnLevel": 50,
         "pendingErrorLevel": 100,
-        "x": 1190,
-        "y": 220,
+        "x": 490,
+        "y": 400,
         "wires": [
             []
         ]
@@ -4607,8 +4029,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 820,
-        "y": 300,
+        "x": 120,
+        "y": 480,
         "wires": [
             [
                 "13f5df24fc5be372"
@@ -4626,8 +4048,8 @@
         "name": "Set Warning 1",
         "pendingWarnLevel": 50,
         "pendingErrorLevel": 100,
-        "x": 1220,
-        "y": 300,
+        "x": 520,
+        "y": 480,
         "wires": [
             []
         ]
@@ -4658,8 +4080,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 820,
-        "y": 360,
+        "x": 120,
+        "y": 540,
         "wires": [
             [
                 "6a3d77fb84af3375"
@@ -4677,8 +4099,8 @@
         "name": "Set Warning 2",
         "pendingWarnLevel": 50,
         "pendingErrorLevel": 100,
-        "x": 1220,
-        "y": 360,
+        "x": 520,
+        "y": 540,
         "wires": [
             []
         ]
@@ -4709,8 +4131,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 820,
-        "y": 420,
+        "x": 120,
+        "y": 600,
         "wires": [
             [
                 "efb3b75f1d0463bc"
@@ -4728,8 +4150,8 @@
         "name": "Set Warning 3",
         "pendingWarnLevel": 50,
         "pendingErrorLevel": 100,
-        "x": 1220,
-        "y": 420,
+        "x": 520,
+        "y": 600,
         "wires": [
             []
         ]
@@ -4746,8 +4168,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1010,
-        "y": 100,
+        "x": 310,
+        "y": 280,
         "wires": [
             [
                 "89bba963dac6cea8"
@@ -4766,8 +4188,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1010,
-        "y": 160,
+        "x": 310,
+        "y": 340,
         "wires": [
             [
                 "685aa59983a93463"
@@ -4786,8 +4208,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1010,
-        "y": 220,
+        "x": 310,
+        "y": 400,
         "wires": [
             [
                 "266c52550afbda9f"
@@ -4806,8 +4228,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 990,
-        "y": 300,
+        "x": 290,
+        "y": 480,
         "wires": [
             [
                 "3056be44f9e20331"
@@ -4826,8 +4248,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 970,
-        "y": 360,
+        "x": 270,
+        "y": 540,
         "wires": [
             [
                 "442636fd0c6b9a32"
@@ -4846,12 +4268,490 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 970,
-        "y": 420,
+        "x": 270,
+        "y": 600,
         "wires": [
             [
                 "19ad56ca9ff77f64"
             ]
+        ]
+    },
+    {
+        "id": "e5d4f313dba09424",
+        "type": "function",
+        "z": "be674fbaa829df8f",
+        "name": "Object To Array",
+        "func": "var newMsg = msg;\n\nnewMsg.payload = msg.payload.value;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 40,
+        "wires": [
+            [
+                "cb3db9e6dd37292b"
+            ]
+        ]
+    },
+    {
+        "id": "4f396904edebfa20",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "be674fbaa829df8f",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PackTag/Admin/Alarm",
+        "name": "",
+        "inputs": 0,
+        "x": 230,
+        "y": 40,
+        "wires": [
+            [
+                "e5d4f313dba09424"
+            ]
+        ]
+    },
+    {
+        "id": "cb3db9e6dd37292b",
+        "type": "ui-table",
+        "z": "be674fbaa829df8f",
+        "group": "7d8adc78da567ef2",
+        "name": "",
+        "label": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "maxrows": "10",
+        "passthru": false,
+        "autocols": true,
+        "showSearch": true,
+        "deselect": true,
+        "selectionType": "click",
+        "columns": [],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "x": 750,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1a0154a4bb24e38b",
+        "type": "function",
+        "z": "be674fbaa829df8f",
+        "name": "Object To Array",
+        "func": "var newMsg = msg;\n\nnewMsg.payload = msg.payload.value;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 120,
+        "wires": [
+            [
+                "135d0b81acca73a6"
+            ]
+        ]
+    },
+    {
+        "id": "9c0cfe7a413f2b8f",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "be674fbaa829df8f",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PackTag/Admin/AlarmHistory",
+        "name": "",
+        "inputs": 0,
+        "x": 240,
+        "y": 120,
+        "wires": [
+            [
+                "1a0154a4bb24e38b"
+            ]
+        ]
+    },
+    {
+        "id": "135d0b81acca73a6",
+        "type": "ui-table",
+        "z": "be674fbaa829df8f",
+        "group": "5794c6df8ea5c237",
+        "name": "",
+        "label": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "maxrows": "10",
+        "passthru": false,
+        "autocols": true,
+        "showSearch": true,
+        "deselect": true,
+        "selectionType": "click",
+        "columns": [],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "x": 750,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cf720277cb5c588a",
+        "type": "function",
+        "z": "be674fbaa829df8f",
+        "name": "Object To Array",
+        "func": "var newMsg = msg;\n\nnewMsg.payload = msg.payload.value;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 200,
+        "wires": [
+            [
+                "af17a460e6bb4153"
+            ]
+        ]
+    },
+    {
+        "id": "b7567d6cc41f781a",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "be674fbaa829df8f",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PackTag/Admin/Warning",
+        "name": "",
+        "inputs": 0,
+        "x": 240,
+        "y": 200,
+        "wires": [
+            [
+                "cf720277cb5c588a"
+            ]
+        ]
+    },
+    {
+        "id": "af17a460e6bb4153",
+        "type": "ui-table",
+        "z": "be674fbaa829df8f",
+        "group": "3d6ba5b3b7bc8bec",
+        "name": "",
+        "label": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "maxrows": "10",
+        "passthru": false,
+        "autocols": true,
+        "showSearch": true,
+        "deselect": true,
+        "selectionType": "click",
+        "columns": [],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "x": 750,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "97bc618763c86a93",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "016306c2d57be25e",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PackTag/Status/Parameter_Lreal",
+        "name": "",
+        "inputs": 0,
+        "x": 210,
+        "y": 80,
+        "wires": [
+            [
+                "9a11b1f94c403022"
+            ]
+        ]
+    },
+    {
+        "id": "ade120ac19b0c600",
+        "type": "ui-table",
+        "z": "016306c2d57be25e",
+        "group": "85c716cf325ed57c",
+        "name": "",
+        "label": "LReal Status Param",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "maxrows": "10",
+        "passthru": false,
+        "autocols": true,
+        "showSearch": true,
+        "deselect": true,
+        "selectionType": "none",
+        "columns": [],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "x": 880,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9a11b1f94c403022",
+        "type": "function",
+        "z": "016306c2d57be25e",
+        "name": "Object To Array",
+        "func": "var newMsg = msg;\n\nnewMsg.payload = msg.payload.value;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 80,
+        "wires": [
+            [
+                "07dc41dfb904c05d",
+                "ade120ac19b0c600"
+            ]
+        ]
+    },
+    {
+        "id": "07dc41dfb904c05d",
+        "type": "debug",
+        "z": "016306c2d57be25e",
+        "name": "Function",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "bb7322a8e3eaddc1",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "016306c2d57be25e",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PackTag/Command/Parameter_Lreal",
+        "name": "",
+        "inputs": 0,
+        "x": 230,
+        "y": 260,
+        "wires": [
+            [
+                "15f2e88224464bb1"
+            ]
+        ]
+    },
+    {
+        "id": "efd04e34befb13c5",
+        "type": "ui-table",
+        "z": "016306c2d57be25e",
+        "group": "85c716cf325ed57c",
+        "name": "",
+        "label": "LReal Command Param",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "maxrows": "10",
+        "passthru": false,
+        "autocols": true,
+        "showSearch": true,
+        "deselect": true,
+        "selectionType": "click",
+        "columns": [],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "x": 890,
+        "y": 260,
+        "wires": [
+            [
+                "d5f6f53ed3ed988d"
+            ]
+        ]
+    },
+    {
+        "id": "15f2e88224464bb1",
+        "type": "function",
+        "z": "016306c2d57be25e",
+        "name": "Object To Array",
+        "func": "var newMsg = msg;\n\nnewMsg.payload = msg.payload.value;\n\nvar LrealCmdTopicname = newMsg.topic;\n\nflow.set(\"LrealCmdTopic\", LrealCmdTopicname);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 260,
+        "wires": [
+            [
+                "efd04e34befb13c5"
+            ]
+        ]
+    },
+    {
+        "id": "a8aececd1860e5c4",
+        "type": "debug",
+        "z": "016306c2d57be25e",
+        "name": "Select Param",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "d5f6f53ed3ed988d",
+        "type": "ui-form",
+        "z": "016306c2d57be25e",
+        "name": "",
+        "group": "85c716cf325ed57c",
+        "label": "Send Cmd value",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Id",
+                "key": "ID",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Name",
+                "key": "Name",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Unit",
+                "key": "Unit",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Value",
+                "key": "Value",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "ID": "",
+            "Name": "",
+            "Unit": "",
+            "Value": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "clear",
+        "resetOnSubmit": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "passthru": false,
+        "dropdownOptions": [],
+        "x": 180,
+        "y": 360,
+        "wires": [
+            [
+                "d799f968cb66ccbc"
+            ]
+        ]
+    },
+    {
+        "id": "d799f968cb66ccbc",
+        "type": "function",
+        "z": "016306c2d57be25e",
+        "name": "SendValueToTopic",
+        "func": "var newMsg = msg;\nvar ParamIndex = msg.payload.ID - 2000;\nvar NewTopic = flow.get(\"LrealCmdTopic\");\nNewTopic = NewTopic.concat('/', ParamIndex.toString(),'/Value');\n\n// newMsg.payload = msg.payload.Value;\nnewMsg.payload = {type:\"double\",value:msg.payload.Value};\n// newMsg.topic = NewTopic;\nnewMsg.path = NewTopic;\n\nreturn newMsg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 360,
+        "wires": [
+            [
+                "a8aececd1860e5c4",
+                "e1167623b8e2fcf0"
+            ]
+        ]
+    },
+    {
+        "id": "3a08788dbc2c1903",
+        "type": "inject",
+        "z": "016306c2d57be25e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 480,
+        "wires": [
+            [
+                "d799f968cb66ccbc"
+            ]
+        ]
+    },
+    {
+        "id": "e1167623b8e2fcf0",
+        "type": "ctrlx-datalayer-request",
+        "z": "016306c2d57be25e",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "",
+        "payloadFormat": "value_type",
+        "name": "",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 740,
+        "y": 360,
+        "wires": [
+            []
         ]
     }
 ]

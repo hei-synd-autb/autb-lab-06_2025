@@ -1,4 +1,14 @@
 
+# Voir PackML document: 
+Admin.Alarm[#].AckDateTime
+The Timestamp for when the alarm was first triggered.
+The Timestamp for when the alarm was acknowledged by the operator or cleared.
+
+Il faut quand même garder l'alarme 0 pour le diagnostique.
+
+
+
+
 Pour convertir un nombre de secondes depuis le 1.1.1970 (timestamp Unix) en une date lisible en texte avec JavaScript :
 
 ```js
@@ -124,4 +134,58 @@ while ((timeIndex < newMsg.payload.length) &&
 
 return newMsg;
 
-Enfin ?
+
+## Enumération IEC 61131-3 pour la machine d'états
+
+```iecst
+TYPE E_EventStates :
+(
+    eIdle                   := 99,
+    eAlarmActive            := 10,
+    eAuto_Acknowledge       := 20,
+    eManualAcknowledge      := 30,
+    eSetAckDateTime         := 40,
+    eAckDateTime            := 50,
+    eWaitForAckAlarmTrig    := 60,
+    eAlarmCleared           := 70
+) DINT := eIdle;
+END_TYPE
+```
+
+
+### Exemple d'utilisation avec une instruction `CASE OF` qualifiée
+
+```iecst
+CASE EventState OF
+    E_EventStates.eIdle:
+        // Actions pour l'état Idle
+    E_EventStates.eAlarmActive:
+        // Actions pour l'état AlarmActive
+    E_EventStates.eAuto_Acknowledge:
+        // Actions pour l'état Auto_Acknowledge
+    E_EventStates.eManualAcknowledge:
+        // Actions pour l'état ManualAcknowledge
+    E_EventStates.eSetAckDateTime:
+        // Actions pour l'état SetAckDateTime
+    E_EventStates.eAckDateTime:
+        // Actions pour l'état AckDateTime
+    E_EventStates.eWaitForAckAlarmTrig:
+        // Actions pour l'état WaitForAckAlarmTrig
+    E_EventStates.eAlarmCleared:
+        // Actions pour l'état AlarmCleared
+END_CASE
+```
+
+
+
+
+Pour formater une date en Suisse (français) avec `toLocaleString` en JavaScript :
+
+```js
+const date = new Date();
+const chDateString = date.toLocaleString('fr-CH');
+console.log(chDateString); // Exemple : "02.07.2024, 00:00:00"
+```
+
+- `'fr-CH'` : code de langue pour le français (Suisse).
+- Les formats changent selon la région : points comme séparateurs de date, virgule pour séparer la date et l'heure.

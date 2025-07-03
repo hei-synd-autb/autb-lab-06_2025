@@ -1,0 +1,5876 @@
+[
+    {
+        "id": "f479262664cd75e2",
+        "type": "tab",
+        "label": "PackML",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "016306c2d57be25e",
+        "type": "tab",
+        "label": "Alarms & Parameters",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "66b713bff26c6577",
+        "type": "tab",
+        "label": "Get Position",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2c31763846faff4a",
+        "type": "tab",
+        "label": "Learning",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "eaf2bfc7454623a0",
+        "type": "tab",
+        "label": "UI Gripper",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "6ccb574154e3475d",
+        "type": "group",
+        "z": "66b713bff26c6577",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "69a1382792d493e5",
+            "4a99555c5c99a906",
+            "a1188273fa858afb",
+            "5873013b9baa66fd",
+            "8568cbc5e8e3a3e7",
+            "b0f2ba42e531280b",
+            "e03c864b75823938",
+            "84fccf9607b693bd",
+            "e4035f4d4de3c39a",
+            "b09d4b9362aac004",
+            "6e51b78d9c6f5a96",
+            "e6079fe93ae39937",
+            "e85f7c32b3e4d863"
+        ],
+        "x": 84,
+        "y": 159,
+        "w": 832,
+        "h": 422
+    },
+    {
+        "id": "7b313a45e45d8c67",
+        "type": "group",
+        "z": "f479262664cd75e2",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "20ee0148a275dedb",
+            "9bd81e8275e8f9fc",
+            "59670bcba7664fbf",
+            "d42e8acbe3501983",
+            "a12abec19b950583",
+            "c49cf2bce7d87104",
+            "4c3d0833f9aa8ad5"
+        ],
+        "x": 34,
+        "y": 779,
+        "w": 982,
+        "h": 222
+    },
+    {
+        "id": "da63248a1cc4b4af",
+        "type": "group",
+        "z": "66b713bff26c6577",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "5af87b665ab849ef",
+            "c88f46c050aa51a3",
+            "c128f90be143a216",
+            "ac49f0b9e2200d23",
+            "fab458635840f194",
+            "b4acbb4fa910b71d",
+            "399266970ed3c8d1",
+            "b21a4f9c5ea48486",
+            "3721ba1125f3e447"
+        ],
+        "x": 94,
+        "y": 619,
+        "w": 858,
+        "h": 522
+    },
+    {
+        "id": "9a1553f8c3041295",
+        "type": "group",
+        "z": "f479262664cd75e2",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "fcbaa2bbfa97fe76",
+            "70e837f7c57ab252",
+            "fb3ab66a497550f6"
+        ],
+        "x": 34,
+        "y": 1019,
+        "w": 762,
+        "h": 142
+    },
+    {
+        "id": "109dfdf213606c81",
+        "type": "group",
+        "z": "eaf2bfc7454623a0",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e4a4e186145c35ce",
+            "94fe66ce01a44d97",
+            "ded8a5dc4b3027b0",
+            "b848aa9c4c8bb73e",
+            "c2c3ec1d528d773f",
+            "62d55bf8b5fed827",
+            "c391a9a9118d3b12"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 652,
+        "h": 242
+    },
+    {
+        "id": "6f8cb341a624a725",
+        "type": "group",
+        "z": "eaf2bfc7454623a0",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "9d1d5761860630e5",
+            "f26f764821d406cf",
+            "742fce5412488928",
+            "f43cac39516a6f0d",
+            "26e75b1d97ea9010"
+        ],
+        "x": 34,
+        "y": 299,
+        "w": 512,
+        "h": 222
+    },
+    {
+        "id": "a1a7c03b79f28556",
+        "type": "group",
+        "z": "eaf2bfc7454623a0",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "86397fca2539ddd5",
+            "89c13c669c2e0f56",
+            "bf2598d595675045",
+            "b291efe98968ed45",
+            "757d3cf7c6971394",
+            "189136639e7733c9"
+        ],
+        "x": 714,
+        "y": 39,
+        "w": 672,
+        "h": 222
+    },
+    {
+        "id": "dfc987d7503267f1",
+        "type": "group",
+        "z": "eaf2bfc7454623a0",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "21c6cd54aa48fbcb",
+            "2a214a13db11e30d",
+            "4028284ccdbaa43d",
+            "895a407ff2269024"
+        ],
+        "x": 634,
+        "y": 299,
+        "w": 492,
+        "h": 222
+    },
+    {
+        "id": "72d122f5da95a597",
+        "type": "group",
+        "z": "eaf2bfc7454623a0",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "258fbef0487ceedf",
+            "98f3a3b9088a69bb",
+            "fb9abf3a139624a6",
+            "beb8e4283b90b2ac"
+        ],
+        "x": 34,
+        "y": 559,
+        "w": 472,
+        "h": 242
+    },
+    {
+        "id": "e04ca71a5699df8d",
+        "type": "group",
+        "z": "eaf2bfc7454623a0",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "a5faa35ff75e941f",
+            "41dafcb5ae202d89",
+            "05e34c107c516944",
+            "1ff204f3558d8fd7"
+        ],
+        "x": 534,
+        "y": 559,
+        "w": 592,
+        "h": 142
+    },
+    {
+        "id": "c3317933d6ba62d6",
+        "type": "group",
+        "z": "eaf2bfc7454623a0",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "eacc7753f8eafa65",
+            "06128533d611f557",
+            "deb09a875fcefa78",
+            "0783d842b8819c0e",
+            "ed6c1bcb6b5a5b3a",
+            "b2783e101e7fe4df",
+            "88604fb51c1c730a",
+            "1f7cda0250f19a40",
+            "67e827ab2bcbf3fb",
+            "390e22c352b33b3d",
+            "039d1f28329253be"
+        ],
+        "x": 94,
+        "y": 1099,
+        "w": 832,
+        "h": 322
+    },
+    {
+        "id": "42bf83e78c2448df",
+        "type": "group",
+        "z": "eaf2bfc7454623a0",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "3076250a25ff821e",
+            "7c18e8b16cb1fc1a",
+            "eb10adfd67d35a64",
+            "f6acede036bfa283"
+        ],
+        "x": 34,
+        "y": 819,
+        "w": 492,
+        "h": 242
+    },
+    {
+        "id": "19be93d218ea5065",
+        "type": "group",
+        "z": "eaf2bfc7454623a0",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "446f4c1831859033",
+            "7373f4f09f74cf4f",
+            "af2ac23c9f46e89f",
+            "0249f46502c192d8",
+            "a09007a490960a6d"
+        ],
+        "x": 554,
+        "y": 839,
+        "w": 532,
+        "h": 222
+    },
+    {
+        "id": "2a2eee82647e59d9",
+        "type": "group",
+        "z": "66b713bff26c6577",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "0712c9aaa2576642",
+            "ed59cf58bbaea28e",
+            "80507e940c54522a",
+            "0265b75427dfa0c3",
+            "051a0634f2c0cbe1",
+            "e8fed109d69f0dd5",
+            "32de8d7d424907ee"
+        ],
+        "x": 114,
+        "y": 1273,
+        "w": 864,
+        "h": 740
+    },
+    {
+        "id": "b95e0955bcd84da3",
+        "type": "group",
+        "z": "016306c2d57be25e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "97bc618763c86a93",
+            "ade120ac19b0c600",
+            "07dc41dfb904c05d",
+            "9a11b1f94c403022",
+            "679ed5d4413ac243"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 972,
+        "h": 142
+    },
+    {
+        "id": "f07ae92c9a0fffe9",
+        "type": "group",
+        "z": "016306c2d57be25e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "bb7322a8e3eaddc1",
+            "efd04e34befb13c5",
+            "15f2e88224464bb1",
+            "a8aececd1860e5c4",
+            "d5f6f53ed3ed988d",
+            "d799f968cb66ccbc",
+            "3a08788dbc2c1903",
+            "e1167623b8e2fcf0",
+            "8bc4481c1eb77be1"
+        ],
+        "x": 34,
+        "y": 219,
+        "w": 992,
+        "h": 362
+    },
+    {
+        "id": "39d2c8fa2da9a3bb",
+        "type": "group",
+        "z": "2c31763846faff4a",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "756b218e0e1a0dd9",
+            "9ea3cc8a755fbeaf",
+            "269fe66b3436842d",
+            "ea297b8cac8cec6a",
+            "0977eeaa66cbd6b4",
+            "dce7468706bd330c",
+            "78c583a6ee4681dd",
+            "7f93de6c3aa130c6",
+            "42146834f26dda03",
+            "b120c2f60521ed0f",
+            "30cab772f950f691",
+            "971fb161377a60a3",
+            "0b0c1cf7cf9ba342",
+            "d1e4c6aef5b87473",
+            "d496348cc54a549e",
+            "b33b59cc37440f31",
+            "02c611d128aa04f1",
+            "13d07cc6afa7b660",
+            "420c5d876e1a86ee",
+            "2a6978139cabccee",
+            "09c46c7dd22bc673",
+            "32727b4f27afd8ef",
+            "87bcabb2cadf27e1",
+            "33a68d3f92d0c0f0",
+            "79d2b2f3e3b49af9",
+            "5b06eaabdca6a7b5",
+            "0cbc337d58200408",
+            "cf2708046f466cf9",
+            "c378040bbd08cb4d",
+            "30173e72ed6e3c12",
+            "1540f7cc3d880657",
+            "2391d3a624c73fe1",
+            "af6ccdc583b82425",
+            "acfc400f85ab825c",
+            "4956f2a33c2ad6c8",
+            "216bd5706994e612",
+            "f37414b7c57706fb",
+            "bf95b661b031ef87",
+            "f337b9a3a0e1277a",
+            "e91d9b44b6c2a948",
+            "df7361bc935feaa2",
+            "b457351155ec75b8",
+            "e0a6260887b1adab",
+            "ae6c13bf3e6e5732",
+            "bbcadc08e08e3882",
+            "07c0cb6f4a903b4e",
+            "74f88add9dcce40e",
+            "b222f0c49b6ee083",
+            "ac6803173c23ee75"
+        ],
+        "x": 34,
+        "y": 179,
+        "w": 1072,
+        "h": 602
+    },
+    {
+        "id": "fab458635840f194",
+        "type": "group",
+        "z": "66b713bff26c6577",
+        "g": "da63248a1cc4b4af",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "1e189ecd802172e5",
+            "602f4c0ed027a896",
+            "6243fa7ea09362a4"
+        ],
+        "x": 354,
+        "y": 719,
+        "w": 572,
+        "h": 82
+    },
+    {
+        "id": "b4acbb4fa910b71d",
+        "type": "group",
+        "z": "66b713bff26c6577",
+        "g": "da63248a1cc4b4af",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "52bfe6c137bd1644",
+            "3c3321ef3d105be0",
+            "575b8dd8c92560ac"
+        ],
+        "x": 354,
+        "y": 839,
+        "w": 572,
+        "h": 82
+    },
+    {
+        "id": "399266970ed3c8d1",
+        "type": "group",
+        "z": "66b713bff26c6577",
+        "g": "da63248a1cc4b4af",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f8c71b02e2e6a3cf",
+            "35519cde47a513a6",
+            "059ec5ae6fe47060"
+        ],
+        "x": 354,
+        "y": 979,
+        "w": 572,
+        "h": 82
+    },
+    {
+        "id": "ed59cf58bbaea28e",
+        "type": "group",
+        "z": "66b713bff26c6577",
+        "g": "2a2eee82647e59d9",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "07406c8a0ad918da",
+            "4683d24c696daa84",
+            "47375513e6a6b2e5"
+        ],
+        "x": 354,
+        "y": 1299,
+        "w": 592,
+        "h": 82
+    },
+    {
+        "id": "80507e940c54522a",
+        "type": "group",
+        "z": "66b713bff26c6577",
+        "g": "2a2eee82647e59d9",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "ee8b7eb033129cf4",
+            "ec7c247a2d3e02c3",
+            "ec252ef7f29ee5e8"
+        ],
+        "x": 354,
+        "y": 1419,
+        "w": 572,
+        "h": 82
+    },
+    {
+        "id": "0265b75427dfa0c3",
+        "type": "group",
+        "z": "66b713bff26c6577",
+        "g": "2a2eee82647e59d9",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "173ab6ca415083cf",
+            "7964f1d1d04092fc",
+            "b8c57dbc783095c9"
+        ],
+        "x": 354,
+        "y": 1699,
+        "w": 572,
+        "h": 82
+    },
+    {
+        "id": "e8fed109d69f0dd5",
+        "type": "group",
+        "z": "66b713bff26c6577",
+        "g": "2a2eee82647e59d9",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e981e4236c8024f4",
+            "e776c6ad90aa034d",
+            "e6cb77d1035d1124",
+            "f4220918acb442d2"
+        ],
+        "x": 328,
+        "y": 1799,
+        "w": 624,
+        "h": 188
+    },
+    {
+        "id": "f4220918acb442d2",
+        "type": "group",
+        "z": "66b713bff26c6577",
+        "g": "e8fed109d69f0dd5",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "c30b72050847c8d7",
+            "906ec0e3279e6c88",
+            "f776d0a59acb3945"
+        ],
+        "x": 354,
+        "y": 1879,
+        "w": 572,
+        "h": 82
+    },
+    {
+        "id": "0b01b5112b73520c",
+        "type": "group",
+        "z": "016306c2d57be25e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "234883240fc33ddd",
+            "03c3188a99187464",
+            "4fff1db996e9f3bc",
+            "835f993728f4da1e",
+            "fefb20c486303bfe",
+            "3b818c56464d0307",
+            "a39a6e2a36bc3f90",
+            "8e65b7991f83358f",
+            "1181b7ec01546c2e",
+            "e4b79fd3ec02cf04",
+            "8690a5797efcf59d",
+            "91aa0e626a309729",
+            "69ef282230163696"
+        ],
+        "x": 34,
+        "y": 619,
+        "w": 892,
+        "h": 462
+    },
+    {
+        "id": "8966a7b403a8fb88",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#8080ff",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "66c6923e3822666a",
+        "type": "ui-page",
+        "name": "User Interface for Lab 06",
+        "ui": "926d3079c9560d19",
+        "path": "/robot",
+        "icon": "robot-happy-outline",
+        "layout": "notebook",
+        "theme": "8966a7b403a8fb88",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "e45e312c80fc001e",
+        "type": "ctrlx-config",
+        "name": "Nodered_CtrlX",
+        "hostname": "192.168.0.200",
+        "debug": false
+    },
+    {
+        "id": "c5b0190b901ecb86",
+        "type": "ctrlx-config-subscription",
+        "device": "e45e312c80fc001e",
+        "name": "Subscribe",
+        "publishIntervalMs": "",
+        "publishIntervalUnits": "seconds",
+        "samplingInterval": "",
+        "samplingIntervalUnits": "seconds",
+        "errorInterval": "",
+        "errorIntervalUnits": "seconds",
+        "keepaliveInterval": "",
+        "keepaliveIntervalUnits": "minutes",
+        "queueSize": "",
+        "queueBehaviour": "DiscardOldest",
+        "deadbandValue": ""
+    },
+    {
+        "id": "bb97738361048557",
+        "type": "ui-group",
+        "name": "Robot Position",
+        "page": "66c6923e3822666a",
+        "width": "6",
+        "height": "1",
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "5e3f352f60d7af69",
+        "type": "ui-page",
+        "name": "Learning",
+        "ui": "926d3079c9560d19",
+        "path": "/page3",
+        "icon": "school",
+        "layout": "notebook",
+        "theme": "8966a7b403a8fb88",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 4,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "6b2222aa7324c02b",
+        "type": "ui-group",
+        "name": "Base",
+        "page": "5e3f352f60d7af69",
+        "width": "6",
+        "height": "1",
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "f52f774838673224",
+        "type": "ui-group",
+        "name": "Commands and Read",
+        "page": "66c6923e3822666a",
+        "width": "6",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "6f4d4cc842955c98",
+        "type": "ui-group",
+        "name": "CPU",
+        "page": "5e3f352f60d7af69",
+        "width": "6",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "5765b0da98500f6a",
+        "type": "ui-group",
+        "name": "Function Block Gripper",
+        "page": "66c6923e3822666a",
+        "width": "6",
+        "height": "1",
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "926d3079c9560d19",
+        "type": "ui-base",
+        "name": "Home",
+        "path": "/dashboard",
+        "appIcon": "factory",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "fixed",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": "1",
+        "showDisconnectNotification": true,
+        "allowInstall": true
+    },
+    {
+        "id": "328b4649a9ced4a0",
+        "type": "ui-page",
+        "name": "Alarms",
+        "ui": "926d3079c9560d19",
+        "path": "/page4",
+        "icon": "alarm-light",
+        "layout": "notebook",
+        "theme": "8966a7b403a8fb88",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 2,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "7d8adc78da567ef2",
+        "type": "ui-group",
+        "name": "Alarms",
+        "page": "328b4649a9ced4a0",
+        "width": "6",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "5794c6df8ea5c237",
+        "type": "ui-group",
+        "name": "Alarms History",
+        "page": "328b4649a9ced4a0",
+        "width": "6",
+        "height": "1",
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "3d6ba5b3b7bc8bec",
+        "type": "ui-group",
+        "name": "Warnings",
+        "page": "328b4649a9ced4a0",
+        "width": "6",
+        "height": "1",
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "e1f3bcea95b360ed",
+        "type": "ui-group",
+        "name": "Test Alarms and Warnings",
+        "page": "5e3f352f60d7af69",
+        "width": "6",
+        "height": "1",
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "aad8bd12c162de85",
+        "type": "ui-group",
+        "name": "Axis Move Absolute",
+        "page": "66c6923e3822666a",
+        "width": "6",
+        "height": "1",
+        "order": 4,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "937ec03369986b60",
+        "type": "ui-page",
+        "name": "Parameters",
+        "ui": "926d3079c9560d19",
+        "path": "/Tests",
+        "icon": "cog",
+        "layout": "notebook",
+        "theme": "8966a7b403a8fb88",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 3,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "85c716cf325ed57c",
+        "type": "ui-group",
+        "name": "Test_Param",
+        "page": "937ec03369986b60",
+        "width": "6",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "a12abec19b950583",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "f479262664cd75e2",
+        "g": "7b313a45e45d8c67",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PackTag/hevsUI/uiStateMasterCurrent",
+        "name": "",
+        "inputs": 0,
+        "x": 250,
+        "y": 960,
+        "wires": [
+            [
+                "c49cf2bce7d87104"
+            ]
+        ]
+    },
+    {
+        "id": "c49cf2bce7d87104",
+        "type": "ui-text",
+        "z": "f479262664cd75e2",
+        "g": "7b313a45e45d8c67",
+        "group": "f52f774838673224",
+        "order": 7,
+        "width": "6",
+        "height": "1",
+        "name": "",
+        "label": "PackML State : ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 580,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "d42e8acbe3501983",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "f479262664cd75e2",
+        "g": "7b313a45e45d8c67",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PackTag/hevsPackTime/Date_and_time_string",
+        "name": "",
+        "inputs": 0,
+        "x": 260,
+        "y": 900,
+        "wires": [
+            [
+                "4c3d0833f9aa8ad5"
+            ]
+        ]
+    },
+    {
+        "id": "4c3d0833f9aa8ad5",
+        "type": "ui-text",
+        "z": "f479262664cd75e2",
+        "g": "7b313a45e45d8c67",
+        "group": "f52f774838673224",
+        "order": 2,
+        "width": "3",
+        "height": "1",
+        "name": "",
+        "label": "PLC Time: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 610,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "3b06631cf122bdf3",
+        "type": "ui-button",
+        "z": "f479262664cd75e2",
+        "group": "f52f774838673224",
+        "name": "",
+        "label": "Start",
+        "order": 5,
+        "width": "3",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "restart",
+        "iconPosition": "left",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "true",
+        "topicType": "msg",
+        "buttonColor": "green",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 90,
+        "y": 360,
+        "wires": [
+            [
+                "95fb6b0f42cf7c3a"
+            ]
+        ]
+    },
+    {
+        "id": "95fb6b0f42cf7c3a",
+        "type": "function",
+        "z": "f479262664cd75e2",
+        "name": "bool8 TRUE",
+        "func": "msg.payload = {type:\"bool8\",value:true};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 360,
+        "wires": [
+            [
+                "b7fe6484e9a7f19b"
+            ]
+        ]
+    },
+    {
+        "id": "b7fe6484e9a7f19b",
+        "type": "ctrlx-datalayer-request",
+        "z": "f479262664cd75e2",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PackTag/hevsUI/uiCmdStart",
+        "payloadFormat": "value_type",
+        "name": "Start",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 570,
+        "y": 360,
+        "wires": [
+            [
+                "c29d9336b0c77903"
+            ]
+        ]
+    },
+    {
+        "id": "3f5cba2b578b6f16",
+        "type": "ctrlx-datalayer-request",
+        "z": "f479262664cd75e2",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PackTag/hevsUI/uiCmdClear",
+        "payloadFormat": "value_type",
+        "name": "Clear",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 570,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0ff03659b1dd4645",
+        "type": "ui-button",
+        "z": "f479262664cd75e2",
+        "group": "f52f774838673224",
+        "name": "",
+        "label": "Clear",
+        "order": 3,
+        "width": "3",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "power-plug",
+        "iconPosition": "left",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "true",
+        "topicType": "msg",
+        "buttonColor": "blue",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 90,
+        "y": 440,
+        "wires": [
+            [
+                "cf301bd39edd06a3"
+            ]
+        ]
+    },
+    {
+        "id": "cf301bd39edd06a3",
+        "type": "function",
+        "z": "f479262664cd75e2",
+        "name": "bool8 TRUE",
+        "func": "msg.payload = {type:\"bool8\",value:true};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 440,
+        "wires": [
+            [
+                "3f5cba2b578b6f16"
+            ]
+        ]
+    },
+    {
+        "id": "20ee0148a275dedb",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "f479262664cd75e2",
+        "g": "7b313a45e45d8c67",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PackTag/hevsUI/uiModeMasterCurrent",
+        "name": "",
+        "inputs": 0,
+        "x": 230,
+        "y": 820,
+        "wires": [
+            [
+                "9bd81e8275e8f9fc"
+            ]
+        ]
+    },
+    {
+        "id": "9bd81e8275e8f9fc",
+        "type": "ui-text",
+        "z": "f479262664cd75e2",
+        "g": "7b313a45e45d8c67",
+        "group": "f52f774838673224",
+        "order": 1,
+        "width": "3",
+        "height": "1",
+        "name": "",
+        "label": "PackML Mode : ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 700,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "59670bcba7664fbf",
+        "type": "comment",
+        "z": "f479262664cd75e2",
+        "g": "7b313a45e45d8c67",
+        "name": "Get Current Mode, State and Time",
+        "info": "",
+        "x": 850,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "fcbaa2bbfa97fe76",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "f479262664cd75e2",
+        "g": "9a1553f8c3041295",
+        "subscription": "c5b0190b901ecb86",
+        "path": "framework/metrics/system/cpu-utilisation-percent",
+        "name": "",
+        "inputs": 0,
+        "x": 240,
+        "y": 1060,
+        "wires": [
+            [
+                "70e837f7c57ab252"
+            ]
+        ]
+    },
+    {
+        "id": "70e837f7c57ab252",
+        "type": "ui-gauge",
+        "z": "f479262664cd75e2",
+        "g": "9a1553f8c3041295",
+        "name": "CPU Usage",
+        "group": "6f4d4cc842955c98",
+        "order": 1,
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "CPU Usage",
+        "units": "%",
+        "icon": "cpu-64-bit",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "20",
+                "color": "#ffc800"
+            },
+            {
+                "from": "90",
+                "color": "#ea5353"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 590,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "fb3ab66a497550f6",
+        "type": "comment",
+        "z": "f479262664cd75e2",
+        "g": "9a1553f8c3041295",
+        "name": "Get CPU Usage from DataLayer",
+        "info": "",
+        "x": 640,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "24e0eb8b4aad0a0f",
+        "type": "ui-button",
+        "z": "f479262664cd75e2",
+        "group": "f52f774838673224",
+        "name": "",
+        "label": "Stop",
+        "order": 8,
+        "width": "3",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "stop",
+        "iconPosition": "left",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "true",
+        "topicType": "msg",
+        "buttonColor": "red",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 90,
+        "y": 520,
+        "wires": [
+            [
+                "a3990a60b44254b8"
+            ]
+        ]
+    },
+    {
+        "id": "a3990a60b44254b8",
+        "type": "function",
+        "z": "f479262664cd75e2",
+        "name": "bool8 TRUE",
+        "func": "msg.payload = {type:\"bool8\",value:true};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 520,
+        "wires": [
+            [
+                "9339e55232306223"
+            ]
+        ]
+    },
+    {
+        "id": "9339e55232306223",
+        "type": "ctrlx-datalayer-request",
+        "z": "f479262664cd75e2",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PackTag/hevsUI/uiCmdStop",
+        "payloadFormat": "value_type",
+        "name": "Stop",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 570,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b6090bcb4f099cbc",
+        "type": "ui-text",
+        "z": "f479262664cd75e2",
+        "group": "f52f774838673224",
+        "order": 10,
+        "width": "0",
+        "height": "0",
+        "name": "",
+        "label": "First Alarm: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 750,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "d259a6a16e0d83e3",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "f479262664cd75e2",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PackTag/Admin/Alarm/0",
+        "name": "",
+        "inputs": 0,
+        "x": 220,
+        "y": 60,
+        "wires": [
+            [
+                "3f4e5a85d20d465a"
+            ]
+        ]
+    },
+    {
+        "id": "6cf33825ef3e24de",
+        "type": "ui-text",
+        "z": "f479262664cd75e2",
+        "group": "f52f774838673224",
+        "order": 11,
+        "width": "0",
+        "height": "0",
+        "name": "",
+        "label": "First Warning :  ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 760,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "1427dd2c7b33fd68",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "f479262664cd75e2",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PackTag/Admin/Warning/0",
+        "name": "",
+        "inputs": 0,
+        "x": 230,
+        "y": 120,
+        "wires": [
+            [
+                "d5163a66c3a6767c"
+            ]
+        ]
+    },
+    {
+        "id": "1942f3c95083713f",
+        "type": "ui-text",
+        "z": "f479262664cd75e2",
+        "group": "f52f774838673224",
+        "order": 12,
+        "width": "0",
+        "height": "0",
+        "name": "",
+        "label": "Stop Reason :  ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 760,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "57e7c2258dc1f648",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "f479262664cd75e2",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PackTag/Admin/StopReason",
+        "name": "",
+        "inputs": 0,
+        "x": 230,
+        "y": 180,
+        "wires": [
+            [
+                "03ecd3d8ea450582"
+            ]
+        ]
+    },
+    {
+        "id": "35a275644c670c96",
+        "type": "ui-button",
+        "z": "f479262664cd75e2",
+        "group": "f52f774838673224",
+        "name": "",
+        "label": "Hold",
+        "order": 9,
+        "width": "3",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "hand-back-left",
+        "iconPosition": "left",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "true",
+        "topicType": "msg",
+        "buttonColor": "yellow",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 90,
+        "y": 580,
+        "wires": [
+            [
+                "2cf51e4ad9793a8e"
+            ]
+        ]
+    },
+    {
+        "id": "2cf51e4ad9793a8e",
+        "type": "function",
+        "z": "f479262664cd75e2",
+        "name": "bool8 TRUE",
+        "func": "msg.payload = {type:\"bool8\",value:true};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 580,
+        "wires": [
+            [
+                "93976703f72dfc6c"
+            ]
+        ]
+    },
+    {
+        "id": "93976703f72dfc6c",
+        "type": "ctrlx-datalayer-request",
+        "z": "f479262664cd75e2",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PackTag/hevsUI/uiCmdHold",
+        "payloadFormat": "value_type",
+        "name": "Hold",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 570,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1276722ad619e092",
+        "type": "ui-button",
+        "z": "f479262664cd75e2",
+        "group": "f52f774838673224",
+        "name": "",
+        "label": "Unhold",
+        "order": 6,
+        "width": "3",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "hand-back-left-off",
+        "iconPosition": "left",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "true",
+        "topicType": "msg",
+        "buttonColor": "green",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 100,
+        "y": 640,
+        "wires": [
+            [
+                "6783bc468d29d40e"
+            ]
+        ]
+    },
+    {
+        "id": "6783bc468d29d40e",
+        "type": "function",
+        "z": "f479262664cd75e2",
+        "name": "bool8 FALSE",
+        "func": "msg.payload = {type:\"bool8\",value:false};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 640,
+        "wires": [
+            [
+                "93976703f72dfc6c"
+            ]
+        ]
+    },
+    {
+        "id": "80e64c45d11479fd",
+        "type": "link in",
+        "z": "f479262664cd75e2",
+        "name": "link in 2",
+        "links": [
+            "3721ba1125f3e447"
+        ],
+        "x": 75,
+        "y": 720,
+        "wires": [
+            [
+                "6783bc468d29d40e"
+            ]
+        ]
+    },
+    {
+        "id": "c29d9336b0c77903",
+        "type": "debug",
+        "z": "f479262664cd75e2",
+        "name": "Start msg",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "fd3f6f5b124c4728",
+        "type": "debug",
+        "z": "f479262664cd75e2",
+        "name": "Alarm One",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "3f4e5a85d20d465a",
+        "type": "function",
+        "z": "f479262664cd75e2",
+        "name": "First Alarm",
+        "func": "// Get Base message\nlet newMsg = msg;\nlet alarmText = \"Trigger \";\n\nif (newMsg.payload.DateTime < 1){\n    alarmText = \"No Alarm\";\n} else {\n    // convertir en millisecondes\n    const date = new Date(newMsg.payload.DateTime * 1000);\n    // format texte local\n    const dateString = date.toLocaleString('fr-CH', {timeZone: 'UTC' });\n\n    alarmText = alarmText.concat(newMsg.payload.Trigger,\n                    \", ID \", \n                    newMsg.payload.ID,\n                    \", \",\n                    newMsg.payload.Message,\n                    \", DateTime: \",\n                    dateString);\n\n}\nnewMsg.payload = alarmText;\n\nreturn newMsg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 60,
+        "wires": [
+            [
+                "b6090bcb4f099cbc",
+                "fd3f6f5b124c4728"
+            ]
+        ]
+    },
+    {
+        "id": "d5163a66c3a6767c",
+        "type": "function",
+        "z": "f479262664cd75e2",
+        "name": "First Warning",
+        "func": "// Get Base message\nlet newMsg = msg;\nlet alarmText = \"Trigger \";\n\nif (newMsg.payload.DateTime < 1){\n    alarmText = \"No Warning\";\n} else {\n    // convertir en millisecondes\n    const date = new Date(newMsg.payload.DateTime * 1000);\n    // format texte local\n    const dateString = date.toLocaleString('fr-CH', {timeZone: 'UTC' });\n\n    alarmText = alarmText.concat(newMsg.payload.Trigger,\n                    \", ID \", \n                    newMsg.payload.ID,\n                    \", \",\n                    newMsg.payload.Message,\n                    \", DateTime: \",\n                    dateString);\n\n}\nnewMsg.payload = alarmText;\n\nreturn newMsg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 120,
+        "wires": [
+            [
+                "6cf33825ef3e24de"
+            ]
+        ]
+    },
+    {
+        "id": "03ecd3d8ea450582",
+        "type": "function",
+        "z": "f479262664cd75e2",
+        "name": "First Alarm",
+        "func": "// Get Base message\nlet newMsg = msg;\nlet alarmText = \"Trigger \";\n\nif (newMsg.payload.DateTime < 1){\n    alarmText = \"No Alarm\";\n} else {\n    // convertir en millisecondes\n    const date = new Date(newMsg.payload.DateTime * 1000);\n    // format texte local\n    const dateString = date.toLocaleString('fr-CH', {timeZone: 'UTC' });\n\n    alarmText = alarmText.concat(newMsg.payload.Trigger,\n                    \", ID \", \n                    newMsg.payload.ID,\n                    \", \",\n                    newMsg.payload.Message,\n                    \", DateTime: \",\n                    dateString);\n\n}\nnewMsg.payload = alarmText;\n\nreturn newMsg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 180,
+        "wires": [
+            [
+                "1942f3c95083713f"
+            ]
+        ]
+    },
+    {
+        "id": "97bc618763c86a93",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "016306c2d57be25e",
+        "g": "b95e0955bcd84da3",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PackTag/Status/Parameter_Lreal",
+        "name": "",
+        "inputs": 0,
+        "x": 210,
+        "y": 80,
+        "wires": [
+            [
+                "9a11b1f94c403022"
+            ]
+        ]
+    },
+    {
+        "id": "ade120ac19b0c600",
+        "type": "ui-table",
+        "z": "016306c2d57be25e",
+        "g": "b95e0955bcd84da3",
+        "group": "85c716cf325ed57c",
+        "name": "",
+        "label": "LReal Status Param",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "maxrows": "10",
+        "passthru": false,
+        "autocols": true,
+        "showSearch": true,
+        "deselect": true,
+        "selectionType": "none",
+        "columns": [],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "x": 880,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "07dc41dfb904c05d",
+        "type": "debug",
+        "z": "016306c2d57be25e",
+        "g": "b95e0955bcd84da3",
+        "name": "Function",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "bb7322a8e3eaddc1",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "016306c2d57be25e",
+        "g": "f07ae92c9a0fffe9",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PackTag/Command/Parameter_Lreal",
+        "name": "",
+        "inputs": 0,
+        "x": 230,
+        "y": 260,
+        "wires": [
+            [
+                "15f2e88224464bb1"
+            ]
+        ]
+    },
+    {
+        "id": "efd04e34befb13c5",
+        "type": "ui-table",
+        "z": "016306c2d57be25e",
+        "g": "f07ae92c9a0fffe9",
+        "group": "85c716cf325ed57c",
+        "name": "",
+        "label": "LReal Command Param",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "maxrows": "10",
+        "passthru": false,
+        "autocols": true,
+        "showSearch": true,
+        "deselect": true,
+        "selectionType": "click",
+        "columns": [],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "x": 890,
+        "y": 260,
+        "wires": [
+            [
+                "d5f6f53ed3ed988d"
+            ]
+        ]
+    },
+    {
+        "id": "15f2e88224464bb1",
+        "type": "function",
+        "z": "016306c2d57be25e",
+        "g": "f07ae92c9a0fffe9",
+        "name": "Object To Array",
+        "func": "var newMsg = msg;\n\nnewMsg.payload = msg.payload.value;\n\nvar LrealCmdTopicname = newMsg.topic;\n\nflow.set(\"LrealCmdTopic\", LrealCmdTopicname);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 260,
+        "wires": [
+            [
+                "efd04e34befb13c5"
+            ]
+        ]
+    },
+    {
+        "id": "a8aececd1860e5c4",
+        "type": "debug",
+        "z": "016306c2d57be25e",
+        "g": "f07ae92c9a0fffe9",
+        "name": "Select Param",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "d5f6f53ed3ed988d",
+        "type": "ui-form",
+        "z": "016306c2d57be25e",
+        "g": "f07ae92c9a0fffe9",
+        "name": "",
+        "group": "85c716cf325ed57c",
+        "label": "Send Cmd value",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Id",
+                "key": "ID",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Name",
+                "key": "Name",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Unit",
+                "key": "Unit",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Value",
+                "key": "Value",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "ID": "",
+            "Name": "",
+            "Unit": "",
+            "Value": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "clear",
+        "resetOnSubmit": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "passthru": false,
+        "dropdownOptions": [],
+        "x": 180,
+        "y": 360,
+        "wires": [
+            [
+                "d799f968cb66ccbc"
+            ]
+        ]
+    },
+    {
+        "id": "d799f968cb66ccbc",
+        "type": "function",
+        "z": "016306c2d57be25e",
+        "g": "f07ae92c9a0fffe9",
+        "name": "SendValueToTopic",
+        "func": "var newMsg = msg;\nvar ParamIndex = msg.payload.ID - 2000;\nvar NewTopic = flow.get(\"LrealCmdTopic\");\nNewTopic = NewTopic.concat('/', ParamIndex.toString(),'/Value');\n\n// newMsg.payload = msg.payload.Value;\nnewMsg.payload = {type:\"double\",value:msg.payload.Value};\n// newMsg.topic = NewTopic;\nnewMsg.path = NewTopic;\n\nreturn newMsg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 360,
+        "wires": [
+            [
+                "a8aececd1860e5c4",
+                "e1167623b8e2fcf0"
+            ]
+        ]
+    },
+    {
+        "id": "3a08788dbc2c1903",
+        "type": "inject",
+        "z": "016306c2d57be25e",
+        "g": "f07ae92c9a0fffe9",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 480,
+        "wires": [
+            [
+                "d799f968cb66ccbc"
+            ]
+        ]
+    },
+    {
+        "id": "e1167623b8e2fcf0",
+        "type": "ctrlx-datalayer-request",
+        "z": "016306c2d57be25e",
+        "g": "f07ae92c9a0fffe9",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "",
+        "payloadFormat": "value_type",
+        "name": "",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 740,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9a11b1f94c403022",
+        "type": "function",
+        "z": "016306c2d57be25e",
+        "g": "b95e0955bcd84da3",
+        "name": "Object To Array",
+        "func": "var newMsg = msg;\n\nnewMsg.payload = msg.payload.value;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 80,
+        "wires": [
+            [
+                "07dc41dfb904c05d",
+                "ade120ac19b0c600"
+            ]
+        ]
+    },
+    {
+        "id": "679ed5d4413ac243",
+        "type": "comment",
+        "z": "016306c2d57be25e",
+        "g": "b95e0955bcd84da3",
+        "name": "Read LReal Status",
+        "info": "",
+        "x": 150,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "8bc4481c1eb77be1",
+        "type": "comment",
+        "z": "016306c2d57be25e",
+        "g": "f07ae92c9a0fffe9",
+        "name": "Write LReal Command",
+        "info": "",
+        "x": 160,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "234883240fc33ddd",
+        "type": "function",
+        "z": "016306c2d57be25e",
+        "g": "0b01b5112b73520c",
+        "name": "Object To Array",
+        "func": "// Get Base message\nvar newMsg = msg;\n\n// Convert the object to an array\nnewMsg.payload = msg.payload.value;\n// Convert date in second to string.\n// It time is > 0.\nlet timeIndex = 0;\nlet newDateSecond;\nlet newDate;\nlet newDateStringLocal;\nwhile ((timeIndex < newMsg.payload.length) &&\n       (newMsg.payload[timeIndex].DateTime > 0))\n       {\n       // Convert second to string for DateTime\n       newDateSecond = newMsg.payload[timeIndex].DateTime;\n       newDate = new Date(newDateSecond * 1000);\n       newDateStringLocal = newDate.toLocaleString('fr-CH');\n\n       // Write DateTime in string format for DataTime\n       newMsg.payload[timeIndex].DateTime = newDateStringLocal;\n\n       // If AckDateTime > 0, convert it to String too.\n       if(newMsg.payload[timeIndex].AckDateTime > 0){\n              // Convert second to string for DateTime\n              newDateSecond = newMsg.payload[timeIndex].AckDateTime;\n              newDate = new Date(newDateSecond * 1000);\n              newDateStringLocal = newDate.toLocaleString('fr-CH');\n\n              // Write DateTime in string format for DataTime\n              newMsg.payload[timeIndex].AckDateTime = newDateStringLocal;\n       }\n\n        timeIndex++;\n        flow.set(\"FlowTimeIndex\", timeIndex);\n        flow.set(\"DateString\", newDateStringLocal);\n       }\n\nreturn newMsg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 660,
+        "wires": [
+            [
+                "4fff1db996e9f3bc"
+            ]
+        ]
+    },
+    {
+        "id": "03c3188a99187464",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "016306c2d57be25e",
+        "g": "0b01b5112b73520c",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PackTag/Admin/Alarm",
+        "name": "",
+        "inputs": 0,
+        "x": 230,
+        "y": 660,
+        "wires": [
+            [
+                "234883240fc33ddd"
+            ]
+        ]
+    },
+    {
+        "id": "4fff1db996e9f3bc",
+        "type": "ui-table",
+        "z": "016306c2d57be25e",
+        "g": "0b01b5112b73520c",
+        "group": "7d8adc78da567ef2",
+        "name": "",
+        "label": "Alarm",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "maxrows": "10",
+        "passthru": false,
+        "autocols": true,
+        "showSearch": true,
+        "deselect": true,
+        "selectionType": "click",
+        "columns": [],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "x": 750,
+        "y": 660,
+        "wires": [
+            [
+                "8690a5797efcf59d"
+            ]
+        ]
+    },
+    {
+        "id": "835f993728f4da1e",
+        "type": "function",
+        "z": "016306c2d57be25e",
+        "g": "0b01b5112b73520c",
+        "name": "Object To Array",
+        "func": "// Get Base message\nvar newMsg = msg;\n\n// Convert the object to an array\nnewMsg.payload = msg.payload.value;\n// Convert date in second to string.\n// It time is > 0.\nlet timeIndex = 0;\nlet newDateSecond;\nlet newDate;\nlet newDateStringLocal;\nwhile ((timeIndex < newMsg.payload.length) &&\n       (newMsg.payload[timeIndex].DateTime > 0))\n       {\n       newDateSecond = newMsg.payload[timeIndex].DateTime;\n       newDate = new Date(newDateSecond * 1000);\n       newDateStringLocal = newDate.toLocaleString('fr-CH');\n\n       newMsg.payload[timeIndex].DateTime = newDateStringLocal;\n\n\n       // If AckDateTime > 0, convert it to String too.\n       if(newMsg.payload[timeIndex].AckDateTime > 0){\n              // Convert second to string for DateTime\n              newDateSecond = newMsg.payload[timeIndex].AckDateTime;\n              newDate = new Date(newDateSecond * 1000);\n              newDateStringLocal = newDate.toLocaleString('fr-CH');\n\n              // Write DateTime in string format for DataTime\n              newMsg.payload[timeIndex].AckDateTime = newDateStringLocal;\n       }\n\n       timeIndex++;\n       }\n\nreturn newMsg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 900,
+        "wires": [
+            [
+                "3b818c56464d0307"
+            ]
+        ]
+    },
+    {
+        "id": "fefb20c486303bfe",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "016306c2d57be25e",
+        "g": "0b01b5112b73520c",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PackTag/Admin/AlarmHistory",
+        "name": "",
+        "inputs": 0,
+        "x": 240,
+        "y": 900,
+        "wires": [
+            [
+                "835f993728f4da1e"
+            ]
+        ]
+    },
+    {
+        "id": "3b818c56464d0307",
+        "type": "ui-table",
+        "z": "016306c2d57be25e",
+        "g": "0b01b5112b73520c",
+        "group": "5794c6df8ea5c237",
+        "name": "",
+        "label": "Alarm History",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "maxrows": "10",
+        "passthru": false,
+        "autocols": true,
+        "showSearch": true,
+        "deselect": true,
+        "selectionType": "none",
+        "columns": [],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "x": 780,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a39a6e2a36bc3f90",
+        "type": "function",
+        "z": "016306c2d57be25e",
+        "g": "0b01b5112b73520c",
+        "name": "Object To Array",
+        "func": "// Get Base message\nvar newMsg = msg;\n\n// Convert the object to an array\nnewMsg.payload = msg.payload.value;\n// Convert date in second to string.\n// It time is > 0.\nlet timeIndex = 0;\nlet newDateSecond;\nlet newDate;\nlet newDateStringLocal;\nwhile ((timeIndex < newMsg.payload.length) &&\n       (newMsg.payload[timeIndex].DateTime > 0))\n       {\n       newDateSecond = newMsg.payload[timeIndex].DateTime;\n       newDate = new Date(newDateSecond * 1000);\n       newDateStringLocal = newDate.toLocaleString('fr-CH');\n\n       newMsg.payload[timeIndex].DateTime = newDateStringLocal;\n\n       // If AckDateTime > 0, convert it to String too.\n       if(newMsg.payload[timeIndex].AckDateTime > 0){\n              // Convert second to string for DateTime\n              newDateSecond = newMsg.payload[timeIndex].AckDateTime;\n              newDate = new Date(newDateSecond * 1000);\n              newDateStringLocal = newDate.toLocaleString('fr-CH');\n\n              // Write DateTime in string format for DataTime\n              newMsg.payload[timeIndex].AckDateTime = newDateStringLocal;\n       }\n        \n       timeIndex++;\n       }\n\nreturn newMsg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 980,
+        "wires": [
+            [
+                "1181b7ec01546c2e"
+            ]
+        ]
+    },
+    {
+        "id": "8e65b7991f83358f",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "016306c2d57be25e",
+        "g": "0b01b5112b73520c",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PackTag/Admin/Warning",
+        "name": "",
+        "inputs": 0,
+        "x": 240,
+        "y": 980,
+        "wires": [
+            [
+                "a39a6e2a36bc3f90"
+            ]
+        ]
+    },
+    {
+        "id": "1181b7ec01546c2e",
+        "type": "ui-table",
+        "z": "016306c2d57be25e",
+        "g": "0b01b5112b73520c",
+        "group": "3d6ba5b3b7bc8bec",
+        "name": "",
+        "label": "warning",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "maxrows": "10",
+        "passthru": false,
+        "autocols": true,
+        "showSearch": true,
+        "deselect": true,
+        "selectionType": "click",
+        "columns": [],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "x": 760,
+        "y": 980,
+        "wires": [
+            [
+                "e4b79fd3ec02cf04"
+            ]
+        ]
+    },
+    {
+        "id": "e4b79fd3ec02cf04",
+        "type": "debug",
+        "z": "016306c2d57be25e",
+        "g": "0b01b5112b73520c",
+        "name": "Get Warning Click",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "8690a5797efcf59d",
+        "type": "debug",
+        "z": "016306c2d57be25e",
+        "g": "0b01b5112b73520c",
+        "name": "Get Alarm Click",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "91aa0e626a309729",
+        "type": "inject",
+        "z": "016306c2d57be25e",
+        "g": "0b01b5112b73520c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 280,
+        "y": 740,
+        "wires": [
+            [
+                "234883240fc33ddd"
+            ]
+        ]
+    },
+    {
+        "id": "69ef282230163696",
+        "type": "comment",
+        "z": "016306c2d57be25e",
+        "g": "0b01b5112b73520c",
+        "name": "Alarms",
+        "info": "",
+        "x": 110,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "69a1382792d493e5",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "66b713bff26c6577",
+        "g": "6ccb574154e3475d",
+        "subscription": "c5b0190b901ecb86",
+        "path": "motion/axs/Axis_x/state/values/actual/pos/mm",
+        "name": "",
+        "inputs": 0,
+        "x": 280,
+        "y": 260,
+        "wires": [
+            [
+                "e03c864b75823938",
+                "84fccf9607b693bd"
+            ]
+        ]
+    },
+    {
+        "id": "4a99555c5c99a906",
+        "type": "ui-text",
+        "z": "66b713bff26c6577",
+        "g": "6ccb574154e3475d",
+        "group": "bb97738361048557",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "X",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 820,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "a1188273fa858afb",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "66b713bff26c6577",
+        "g": "6ccb574154e3475d",
+        "subscription": "c5b0190b901ecb86",
+        "path": "motion/axs/Axis_y/state/values/actual/pos/mm",
+        "name": "",
+        "inputs": 0,
+        "x": 280,
+        "y": 340,
+        "wires": [
+            [
+                "e4035f4d4de3c39a"
+            ]
+        ]
+    },
+    {
+        "id": "5873013b9baa66fd",
+        "type": "ui-text",
+        "z": "66b713bff26c6577",
+        "g": "6ccb574154e3475d",
+        "group": "bb97738361048557",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "Y",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "className": "",
+        "x": 820,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "8568cbc5e8e3a3e7",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "66b713bff26c6577",
+        "g": "6ccb574154e3475d",
+        "subscription": "c5b0190b901ecb86",
+        "path": "motion/axs/Axis_z/state/values/actual/pos/mm",
+        "name": "",
+        "inputs": 0,
+        "x": 280,
+        "y": 440,
+        "wires": [
+            [
+                "b09d4b9362aac004",
+                "6e51b78d9c6f5a96"
+            ]
+        ]
+    },
+    {
+        "id": "b0f2ba42e531280b",
+        "type": "ui-text",
+        "z": "66b713bff26c6577",
+        "g": "6ccb574154e3475d",
+        "group": "bb97738361048557",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "Z",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "className": "",
+        "x": 820,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "e03c864b75823938",
+        "type": "debug",
+        "z": "66b713bff26c6577",
+        "g": "6ccb574154e3475d",
+        "name": "debug 2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 630,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "84fccf9607b693bd",
+        "type": "function",
+        "z": "66b713bff26c6577",
+        "g": "6ccb574154e3475d",
+        "name": "Round 0.01",
+        "func": "let position = Math.round(msg.payload * 100) / 100;\n\nglobal.set('X_Position', position);\n\nlet postion_mm = 'Axis X : ';\n\npostion_mm = postion_mm.concat(position,' [mm]');\n\nmsg.payload = postion_mm;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 260,
+        "wires": [
+            [
+                "4a99555c5c99a906"
+            ]
+        ]
+    },
+    {
+        "id": "e4035f4d4de3c39a",
+        "type": "function",
+        "z": "66b713bff26c6577",
+        "g": "6ccb574154e3475d",
+        "name": "Round 0.01",
+        "func": "let position = Math.round(msg.payload * 100) / 100;\n\nglobal.set('Y_Position', position);\n\nlet postion_mm = 'Axis Y : ';\n\npostion_mm = postion_mm.concat(position,' [mm]');\n\nmsg.payload = postion_mm;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 340,
+        "wires": [
+            [
+                "5873013b9baa66fd"
+            ]
+        ]
+    },
+    {
+        "id": "b09d4b9362aac004",
+        "type": "function",
+        "z": "66b713bff26c6577",
+        "g": "6ccb574154e3475d",
+        "name": "Round 0.01",
+        "func": "let position = Math.round(msg.payload * 100) / 100;\n\nglobal.set('Z_Position', position);\n\nlet postion_mm = 'Axis Z : ';\n\npostion_mm = postion_mm.concat(position,' [mm]');\n\nmsg.payload = postion_mm;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 440,
+        "wires": [
+            [
+                "b0f2ba42e531280b"
+            ]
+        ]
+    },
+    {
+        "id": "6e51b78d9c6f5a96",
+        "type": "function",
+        "z": "66b713bff26c6577",
+        "g": "6ccb574154e3475d",
+        "name": "function 2",
+        "func": "let newMsg = msg;\n\nnewMsg.payload.logDate = Date();\n\nmsg = newMsg;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 540,
+        "wires": [
+            [
+                "e6079fe93ae39937"
+            ]
+        ]
+    },
+    {
+        "id": "e6079fe93ae39937",
+        "type": "debug",
+        "z": "66b713bff26c6577",
+        "g": "6ccb574154e3475d",
+        "name": "debug 6",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 810,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "e85f7c32b3e4d863",
+        "type": "comment",
+        "z": "66b713bff26c6577",
+        "g": "6ccb574154e3475d",
+        "name": "Axes Position",
+        "info": "",
+        "x": 180,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "5af87b665ab849ef",
+        "type": "function",
+        "z": "66b713bff26c6577",
+        "g": "da63248a1cc4b4af",
+        "name": "bool8 TRUE",
+        "func": "msg.payload = {type:\"bool8\",value:true};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 660,
+        "wires": [
+            [
+                "c88f46c050aa51a3"
+            ]
+        ]
+    },
+    {
+        "id": "c88f46c050aa51a3",
+        "type": "ctrlx-datalayer-request",
+        "z": "66b713bff26c6577",
+        "g": "da63248a1cc4b4af",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PackTag/hevsUI/uiCmdReset",
+        "payloadFormat": "value_type",
+        "name": "Reset",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 570,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c128f90be143a216",
+        "type": "ui-button",
+        "z": "66b713bff26c6577",
+        "g": "da63248a1cc4b4af",
+        "group": "f52f774838673224",
+        "name": "",
+        "label": "Reset",
+        "order": 4,
+        "width": "3",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "lock-reset",
+        "iconPosition": "left",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "true",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 170,
+        "y": 660,
+        "wires": [
+            [
+                "5af87b665ab849ef",
+                "ac49f0b9e2200d23",
+                "3721ba1125f3e447"
+            ]
+        ]
+    },
+    {
+        "id": "ac49f0b9e2200d23",
+        "type": "function",
+        "z": "66b713bff26c6577",
+        "g": "da63248a1cc4b4af",
+        "name": "Reset X Y Z Slider",
+        "func": "const msg1 = {payload:-199};\nconst msg2 = {payload:-78};\nconst msg3 = {payload:0};\n\n\nreturn [msg1, msg2, msg3];",
+        "outputs": 3,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 840,
+        "wires": [
+            [
+                "1e189ecd802172e5"
+            ],
+            [
+                "52bfe6c137bd1644"
+            ],
+            [
+                "f8c71b02e2e6a3cf"
+            ]
+        ]
+    },
+    {
+        "id": "1e189ecd802172e5",
+        "type": "ui-slider",
+        "z": "66b713bff26c6577",
+        "g": "fab458635840f194",
+        "group": "bb97738361048557",
+        "name": "",
+        "label": "X Abs. Position",
+        "tooltip": "",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "passthru": false,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "thumbLabel": "true",
+        "showTicks": "always",
+        "min": "-220",
+        "max": "220",
+        "step": 1,
+        "className": "",
+        "iconPrepend": "",
+        "iconAppend": "",
+        "color": "",
+        "colorTrack": "",
+        "colorThumb": "",
+        "showTextField": true,
+        "x": 460,
+        "y": 760,
+        "wires": [
+            [
+                "6243fa7ea09362a4"
+            ]
+        ]
+    },
+    {
+        "id": "602f4c0ed027a896",
+        "type": "ctrlx-datalayer-request",
+        "z": "66b713bff26c6577",
+        "g": "fab458635840f194",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PRG_Process/lrMoveAbs_X",
+        "payloadFormat": "value_type",
+        "name": "X Abs",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 850,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6243fa7ea09362a4",
+        "type": "function",
+        "z": "66b713bff26c6577",
+        "g": "fab458635840f194",
+        "name": "Double",
+        "func": "let position = msg.payload;\n\nmsg.payload = {type:\"double\",value:position};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 760,
+        "wires": [
+            [
+                "602f4c0ed027a896"
+            ]
+        ]
+    },
+    {
+        "id": "52bfe6c137bd1644",
+        "type": "ui-slider",
+        "z": "66b713bff26c6577",
+        "g": "b4acbb4fa910b71d",
+        "group": "bb97738361048557",
+        "name": "",
+        "label": "Y Abs. Position",
+        "tooltip": "",
+        "order": 4,
+        "width": "0",
+        "height": "0",
+        "passthru": false,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "thumbLabel": "true",
+        "showTicks": "always",
+        "min": "-100",
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "iconPrepend": "",
+        "iconAppend": "",
+        "color": "",
+        "colorTrack": "",
+        "colorThumb": "",
+        "showTextField": true,
+        "x": 460,
+        "y": 880,
+        "wires": [
+            [
+                "575b8dd8c92560ac"
+            ]
+        ]
+    },
+    {
+        "id": "3c3321ef3d105be0",
+        "type": "ctrlx-datalayer-request",
+        "z": "66b713bff26c6577",
+        "g": "b4acbb4fa910b71d",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PRG_Process/lrMoveAbs_Y",
+        "payloadFormat": "value_type",
+        "name": "Y Abs",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 850,
+        "y": 880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "575b8dd8c92560ac",
+        "type": "function",
+        "z": "66b713bff26c6577",
+        "g": "b4acbb4fa910b71d",
+        "name": "Double",
+        "func": "let position = msg.payload;\n\nmsg.payload = {type:\"double\",value:position};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 880,
+        "wires": [
+            [
+                "3c3321ef3d105be0"
+            ]
+        ]
+    },
+    {
+        "id": "f8c71b02e2e6a3cf",
+        "type": "ui-slider",
+        "z": "66b713bff26c6577",
+        "g": "399266970ed3c8d1",
+        "group": "bb97738361048557",
+        "name": "",
+        "label": "Z Abs. Position",
+        "tooltip": "",
+        "order": 6,
+        "width": "0",
+        "height": "0",
+        "passthru": false,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "thumbLabel": "true",
+        "showTicks": "always",
+        "min": "-149",
+        "max": "150",
+        "step": 1,
+        "className": "",
+        "iconPrepend": "",
+        "iconAppend": "",
+        "color": "",
+        "colorTrack": "",
+        "colorThumb": "",
+        "showTextField": true,
+        "x": 460,
+        "y": 1020,
+        "wires": [
+            [
+                "059ec5ae6fe47060"
+            ]
+        ]
+    },
+    {
+        "id": "35519cde47a513a6",
+        "type": "ctrlx-datalayer-request",
+        "z": "66b713bff26c6577",
+        "g": "399266970ed3c8d1",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PRG_Process/lrMoveAbs_Z",
+        "payloadFormat": "value_type",
+        "name": "Z Abs",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 850,
+        "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "059ec5ae6fe47060",
+        "type": "function",
+        "z": "66b713bff26c6577",
+        "g": "399266970ed3c8d1",
+        "name": "Double",
+        "func": "let position = msg.payload;\n\nmsg.payload = {type:\"double\",value:position};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 1020,
+        "wires": [
+            [
+                "35519cde47a513a6"
+            ]
+        ]
+    },
+    {
+        "id": "b21a4f9c5ea48486",
+        "type": "comment",
+        "z": "66b713bff26c6577",
+        "g": "da63248a1cc4b4af",
+        "name": "Manage and Init Axes Sliders",
+        "info": "",
+        "x": 780,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "3721ba1125f3e447",
+        "type": "link out",
+        "z": "66b713bff26c6577",
+        "g": "da63248a1cc4b4af",
+        "name": "Reset Gripper",
+        "mode": "link",
+        "links": [
+            "67e827ab2bcbf3fb",
+            "32de8d7d424907ee",
+            "80e64c45d11479fd"
+        ],
+        "x": 245,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "0712c9aaa2576642",
+        "type": "function",
+        "z": "66b713bff26c6577",
+        "g": "2a2eee82647e59d9",
+        "name": "Reset Dynamic",
+        "func": "const msgPos1 = {payload:-50};\nconst msgPos2 = {payload:50};\nconst msgV = {payload:0.1};\nconst msgA = {payload:1};\nconst msgJ = {payload:10};\n\n\nreturn [msgPos1, msgPos2, msgV, msgA, msgJ];",
+        "outputs": 5,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 220,
+        "y": 1420,
+        "wires": [
+            [
+                "07406c8a0ad918da"
+            ],
+            [
+                "ee8b7eb033129cf4"
+            ],
+            [
+                "173ab6ca415083cf"
+            ],
+            [
+                "e981e4236c8024f4"
+            ],
+            [
+                "c30b72050847c8d7"
+            ]
+        ]
+    },
+    {
+        "id": "07406c8a0ad918da",
+        "type": "ui-slider",
+        "z": "66b713bff26c6577",
+        "g": "ed59cf58bbaea28e",
+        "group": "aad8bd12c162de85",
+        "name": "",
+        "label": "Position One [mm]",
+        "tooltip": "",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "passthru": false,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "thumbLabel": "true",
+        "showTicks": "always",
+        "min": "-150",
+        "max": "0",
+        "step": 1,
+        "className": "",
+        "iconPrepend": "",
+        "iconAppend": "",
+        "color": "",
+        "colorTrack": "",
+        "colorThumb": "",
+        "showTextField": true,
+        "x": 470,
+        "y": 1340,
+        "wires": [
+            [
+                "47375513e6a6b2e5"
+            ]
+        ]
+    },
+    {
+        "id": "4683d24c696daa84",
+        "type": "ctrlx-datalayer-request",
+        "z": "66b713bff26c6577",
+        "g": "ed59cf58bbaea28e",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PRG_PackModule_Lab_05/Position_One_mm",
+        "payloadFormat": "value_type",
+        "name": "Abs One",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 860,
+        "y": 1340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "47375513e6a6b2e5",
+        "type": "function",
+        "z": "66b713bff26c6577",
+        "g": "ed59cf58bbaea28e",
+        "name": "Double",
+        "func": "let position = msg.payload;\n\nmsg.payload = {type:\"double\",value:position};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 1340,
+        "wires": [
+            [
+                "4683d24c696daa84"
+            ]
+        ]
+    },
+    {
+        "id": "ee8b7eb033129cf4",
+        "type": "ui-slider",
+        "z": "66b713bff26c6577",
+        "g": "80507e940c54522a",
+        "group": "aad8bd12c162de85",
+        "name": "",
+        "label": "Position Two [mm]",
+        "tooltip": "",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "passthru": false,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "thumbLabel": "true",
+        "showTicks": "always",
+        "min": "0",
+        "max": "150",
+        "step": 1,
+        "className": "",
+        "iconPrepend": "",
+        "iconAppend": "",
+        "color": "",
+        "colorTrack": "",
+        "colorThumb": "",
+        "showTextField": true,
+        "x": 470,
+        "y": 1460,
+        "wires": [
+            [
+                "ec252ef7f29ee5e8"
+            ]
+        ]
+    },
+    {
+        "id": "ec7c247a2d3e02c3",
+        "type": "ctrlx-datalayer-request",
+        "z": "66b713bff26c6577",
+        "g": "80507e940c54522a",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PRG_PackModule_Lab_05/Position_Two_mm",
+        "payloadFormat": "value_type",
+        "name": "Abs 2",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 850,
+        "y": 1460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ec252ef7f29ee5e8",
+        "type": "function",
+        "z": "66b713bff26c6577",
+        "g": "80507e940c54522a",
+        "name": "Double",
+        "func": "let position = msg.payload;\n\nmsg.payload = {type:\"double\",value:position};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 1460,
+        "wires": [
+            [
+                "ec7c247a2d3e02c3"
+            ]
+        ]
+    },
+    {
+        "id": "173ab6ca415083cf",
+        "type": "ui-slider",
+        "z": "66b713bff26c6577",
+        "g": "0265b75427dfa0c3",
+        "group": "aad8bd12c162de85",
+        "name": "",
+        "label": "Velocity [m/s]",
+        "tooltip": "",
+        "order": 3,
+        "width": "0",
+        "height": "0",
+        "passthru": false,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "thumbLabel": "true",
+        "showTicks": "always",
+        "min": "0",
+        "max": "0.3",
+        "step": "0.01",
+        "className": "",
+        "iconPrepend": "",
+        "iconAppend": "",
+        "color": "",
+        "colorTrack": "",
+        "colorThumb": "",
+        "showTextField": true,
+        "x": 450,
+        "y": 1740,
+        "wires": [
+            [
+                "b8c57dbc783095c9"
+            ]
+        ]
+    },
+    {
+        "id": "7964f1d1d04092fc",
+        "type": "ctrlx-datalayer-request",
+        "z": "66b713bff26c6577",
+        "g": "0265b75427dfa0c3",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PRG_PackModule_Lab_05/Velocity_m_s",
+        "payloadFormat": "value_type",
+        "name": "Vel.",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 850,
+        "y": 1740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b8c57dbc783095c9",
+        "type": "function",
+        "z": "66b713bff26c6577",
+        "g": "0265b75427dfa0c3",
+        "name": "Double",
+        "func": "let position = msg.payload;\n\nmsg.payload = {type:\"double\",value:position};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 1740,
+        "wires": [
+            [
+                "7964f1d1d04092fc"
+            ]
+        ]
+    },
+    {
+        "id": "051a0634f2c0cbe1",
+        "type": "comment",
+        "z": "66b713bff26c6577",
+        "g": "2a2eee82647e59d9",
+        "name": "Axis Move Absolute",
+        "info": "",
+        "x": 230,
+        "y": 1820,
+        "wires": []
+    },
+    {
+        "id": "e981e4236c8024f4",
+        "type": "ui-slider",
+        "z": "66b713bff26c6577",
+        "g": "e8fed109d69f0dd5",
+        "group": "aad8bd12c162de85",
+        "name": "",
+        "label": "Acceleration [m/s2]",
+        "tooltip": "",
+        "order": 4,
+        "width": "0",
+        "height": "0",
+        "passthru": false,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "thumbLabel": "true",
+        "showTicks": "always",
+        "min": "0",
+        "max": "3",
+        "step": "0.1",
+        "className": "",
+        "iconPrepend": "",
+        "iconAppend": "",
+        "color": "",
+        "colorTrack": "",
+        "colorThumb": "",
+        "showTextField": true,
+        "x": 470,
+        "y": 1840,
+        "wires": [
+            [
+                "e6cb77d1035d1124"
+            ]
+        ]
+    },
+    {
+        "id": "e776c6ad90aa034d",
+        "type": "ctrlx-datalayer-request",
+        "z": "66b713bff26c6577",
+        "g": "e8fed109d69f0dd5",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PRG_PackModule_Lab_05/Acceleleration_m_s2",
+        "payloadFormat": "value_type",
+        "name": "Accel",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 850,
+        "y": 1840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e6cb77d1035d1124",
+        "type": "function",
+        "z": "66b713bff26c6577",
+        "g": "e8fed109d69f0dd5",
+        "name": "Double",
+        "func": "let position = msg.payload;\n\nmsg.payload = {type:\"double\",value:position};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 1840,
+        "wires": [
+            [
+                "e776c6ad90aa034d"
+            ]
+        ]
+    },
+    {
+        "id": "c30b72050847c8d7",
+        "type": "ui-slider",
+        "z": "66b713bff26c6577",
+        "g": "f4220918acb442d2",
+        "group": "aad8bd12c162de85",
+        "name": "",
+        "label": "Jerk [m/s3]",
+        "tooltip": "",
+        "order": 5,
+        "width": "0",
+        "height": "0",
+        "passthru": false,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "thumbLabel": "true",
+        "showTicks": "always",
+        "min": "0",
+        "max": "30",
+        "step": "1",
+        "className": "",
+        "iconPrepend": "",
+        "iconAppend": "",
+        "color": "",
+        "colorTrack": "",
+        "colorThumb": "",
+        "showTextField": true,
+        "x": 450,
+        "y": 1920,
+        "wires": [
+            [
+                "f776d0a59acb3945"
+            ]
+        ]
+    },
+    {
+        "id": "906ec0e3279e6c88",
+        "type": "ctrlx-datalayer-request",
+        "z": "66b713bff26c6577",
+        "g": "f4220918acb442d2",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PRG_PackModule_Lab_05/Jerk_m_s3",
+        "payloadFormat": "value_type",
+        "name": "Jerk",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 850,
+        "y": 1920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f776d0a59acb3945",
+        "type": "function",
+        "z": "66b713bff26c6577",
+        "g": "f4220918acb442d2",
+        "name": "Double",
+        "func": "let position = msg.payload;\n\nmsg.payload = {type:\"double\",value:position};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 1920,
+        "wires": [
+            [
+                "906ec0e3279e6c88"
+            ]
+        ]
+    },
+    {
+        "id": "32de8d7d424907ee",
+        "type": "link in",
+        "z": "66b713bff26c6577",
+        "g": "2a2eee82647e59d9",
+        "name": "link in 1",
+        "links": [
+            "3721ba1125f3e447"
+        ],
+        "x": 225,
+        "y": 1320,
+        "wires": [
+            [
+                "0712c9aaa2576642"
+            ]
+        ]
+    },
+    {
+        "id": "5c7cf1a654210fbf",
+        "type": "ui-markdown",
+        "z": "2c31763846faff4a",
+        "group": "6b2222aa7324c02b",
+        "name": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "content": "## Dynamic info\nAxis X: {{msg.payload}}\n\nCourse AutB\n\nAuthor: [Cédric Lenoir](mailto:cedric.lenoir@hevs.ch)\n\n# LAB 06 Pack & PLCopen\n[Die deutsche Version ist hier verfügbar:](README_DE.md)\n\n## Version\n-  CtrlX PLC: 2.6.7\n-  Node RED : 4.0.5\n-  @flowfuse/node-red-dashboard: 1.24.2\n-  node-red-contrib-ctrlx-automation: 1.9.8\n\n## Objectif du travail pratique\n-   [ ] Utiliser des Function Block du type PLCopen dans un contexte PackML\n-   [ ] Implémenter des alarmes et des warnings pour surveiller le système.\n\n## Règles de codage\n-   Vous devez travailler uniquement dans **PRG_Student**.\n-   **PRG_Student** est un module parmi d'autres.\n-   Les modules d'axes servent à gérer la mise sous couple des moteurs et inversement vous n'avez pas à le faire.\n-  Un bref aperçu de [FB_Stop](MC_MoveAbsolute_AND_MC_Stop.md) et [FB_MoveAbsolute](MC_MoveAbsolute_AND_MC_Stop.md).\n-  [Documentation](#documentation).\n\n### Sécurité\nL'axe Z est prévu pour remonter pendant la phase de Resetting afin d'éviter les risques de Crash.\n\nIl sert d'exemple: **FB_ModuleAxis_Z** utilise **ACT_Resetting**\n```iecst\n(*\n\tManage Resetting\n*)\nIF actualState = E_PackState.eResetting THEN\n   // Set to TRUE if no action requested\n   CASE axisResetting OF\n      E_AxisResetting.eIdle :\n         // For Z axis, position 0 is safe\n         mcMoveAbs.Position := 0;\n         axisResetting := E_AxisResetting.eMotionResetPos;\n\t\t\n      E_AxisResetting.eMotionResetPos :\n         IF mcMoveAbs.Done THEN\n            axisResetting := E_AxisResetting.eMotionIdleDone;\n         ELSIF mcMoveAbs.Error THEN\n            axisResetting := E_AxisResetting.eMotionIdleError;\n         END_IF\n      E_AxisResetting.eMotionIdleDone :\n         // Do Nothing, SC\n         ;\n      E_AxisResetting.eMotionIdleError :\n         // Do nothing, wait for debug\n         ;\t\t\n   END_CASE\n\t\n   stActing.Resetting_SC := (axisResetting = E_AxisResetting.eMotionIdleDone);\nELSE\n   axisResetting := E_AxisResetting.eIdle;\t\n   stActing.Resetting_SC := FALSE;\nEND_IF\n\n```\n\nLe FB mcMoveAbs est appelé en dehors de la State Machine afin d'être toujours appelé et ne pas rester dans un état indéterminé.\n\n```iecst\nmcMoveAbs.Execute := (axisResetting = E_AxisResetting.eMotionResetPos);\nmcMoveAbs(Position := 100,\n          Velocity := 0.1,\n          Acceleration := 1,\n          Deceleration := 1);\n\n```\n\nVous pouvez réutiliser le même FB ``MC_MoveAbsolute``, mais en utilisant une nouvelle instance, par exemple: ``mcMyMove``.\n\n### Etat réservé\nL'état Execute en mode Manuel est réservé pour une activité de jog.\nVous pouvez utiliser les autres état et modes.\n\n### Principe PackML HEVS\nLe Pack façon HEVS gère automatiquement les états.\n**ACT_PackManager** et réservé pour la gestion du module.\n\nVous ne codez que dans les actions des états qui sont nécessaire, principalement dans **Pack_Execute**. \n\n\n### Implémentation des alarmes et des warnings\nVous appelez vos Warnings et Alarms dans **ACT_WarningAndAlarms**. Voir ci-dessous dans [documentation](#documentation) les exemples de code.\n\n### A propos du Gripper\nLe gripper est programmé pour être pilotable manuellement, sauf dans les conditions suivantes:\n\n```iecst\nIF NOT ((PackTag.hevsUI.uiStateExecute AND (PackTag.Status.UnitModeCurrent = E_PackModes.Production)) OR\n         PackTag.hevsUI.uiStateClearing  OR\n         PackTag.hevsUI.uiStateResetting)    THEN\n\tfbOpenGripper.Execute := stTestFbGripperHmi.openGripper;\n\tfbCloseGripper.Execute := stTestFbGripperHmi.closeGripper;\t\nEND_IF\n\n```\nCe qui signifie que les deux Function Blocks peuvent être utilisés dans tous les autres états.\n\n\n## URS User Request Specification\n\n\n|URS ID |Specification|\n|-------|-------------|\n|0. |Starting|\n|0.1   |Dans cet état, les axes X et Z vont se positionner aux positions **X = -100** et **Z = 100**.|\n|0.2   |Quand les deux axes sont en position, on passe en Execute.|\n|1. |**Execute**|\n|1.1 |Les axes X et Z doivent se déplacer selon le tableau et [dessin ci-dessous](#details-for-square).|\n|1.2. |On peut varier la vitesse, l'accélération et le jerk depuis le HMI.|\n|1.3. |Le gripper est activé selon le [tableau ci-dessous](#details-for-square).|\n|1.4. |Le mouvement continue en boucle, 1-2-3-5-1...|\n|2. |**Hold**|\n|2.1 |Si on appuie sur le bouton Hold du HMI Node-RED, les axes sont stoppés immédiatement avec le FB_Stop.|\n|2.2 |Si on appuie sur le bouton Unhold du HMI Node-RED, le système recommence la séquence Execute.|\n|3. |**Suspend**|\n|3.1. |Après 3 cycles de mouvements, le programme passe en Suspended pendant 3 secondes, puis recommence pour 3 cycles supplémentaire et ainsi de suite.|\n|3.2. |L'action Suspended doit être activée par une **alarme** de niveau Suspend.|\n|4. |**Warnings**|\n|4.1. |En Aborted, on indique qu'il faut un clearing pour démarrer.|\n|4.2. |En Stopped, on indique qu'il faut un reset pour démarrer.|\n|4.3. |En Held, on indique qu'il faut un unhold pour démarrer.|\n|5. |**Alarm Gripper**|\n|5.1 |Si on coupe l'air comprimé et que le gripper ne se ferme pas, on génère une alarme de niveau Stoppe avec un message.|\n|5.2 |Si on coupe l'air comprimé et que le gripper ne s'ouvre pas, on génère une alarme de niveau Stoppe avec un message.|\n\n\n### Complément\nOn peut aussi tester Complete qui devrait pouvoir repartir en resetting avec un Reset.\n\n\n### Details for Square\n\n|Id |Move To Position X|M.T.P Z |Action      |Delay [ms] |Next Id|\n|---|------------------|--------|------------|-----------|-------|\n|1  |0                 |50      |eOpen       |500        |2      |\n|2  |0                 |-50       |eClose      |0          |3      |\n|3  |100               |-50       |eOpen       |0          |4      |\n|4  |100               |50      |eClose      |0          |1      |\n|1  |0                 |50      |eOpen       |500        |2      |\n\n-  Velocity_m_s        := 0.05;\n-  Acceleleration_m_s2 := 1;\n-  Jerk_m_s3           := 10;\n\n<div style=\"text-align: center;\">\n<figure>\n    <img src=\"./img/DriveSquare.png\"\n         alt=\"Image Lost DriveSquare\">\n    <figcaption>2D motion with a square</figcaption>\n</figure>\n</div>\n\n\n## Documentation\n\n-   [For Gripper Function Blocks online](FB_Gripper.md)\n-   [HEVS PackTag User Interface](HEVS_PackTag_UI.md)\n-   [HEVS Alarms](FB_HEVS_SetAlarm.md)\n-   [HEVS Warnings](FB_HEVS_SetWarning.md)\n-   [MC_Stop & MC_MoveAbsolute](MC_MoveAbsolute_AND_MC_Stop.md)\n\n\n### About Programs\n\nIn cltrX PLC Engineering\n\nFunction blocks for robot are in **HEVS_Robot**.\n\nManual motions are set in **HEVS_UnitBox** -> **PRG_Process**.\n\n**PRG_Student** is called in **PRG_Process**.\n\n#### About SC State Complete\nThe synthesis of modules for the process/Unit are here in **ACT_Build_Pack_SC** of the program **PRG_Process**.\n\n```iecst\n(*\n\tThis section should group all EM and CM State Complete\n\tThis Unit_SC is used by PLC_PACK to manager\n\tStates SC\n*)\nxProcess_SC := fbModuleAxis_X.SC AND\n\t\t       fbModuleAxis_Y.SC AND\n\t\t       fbModuleAxis_Z.SC AND\n               PRG_Student.SC;\n```\n\n#### In the task manager\nOnly one program is in the task manager it calls all other programs of the Unit Box. PRG_UnitBox.\n\n```iecst\n(*\n\tCheck and init program\n*)\nuliLoopUnitBox := uliLoopUnitBox + 1;\nIF NOT xInitUnitBox THEN\n\txInitUnitBox := TRUE;\nEND_IF\n\n(*\n\tMap program\n\tSpecific to this hardware.\n\tMainly access to IO via Profinet and S7-1500\n*)\nPRG_MapBox();\n\n(*\n\tDevice Manager\n\tProcessing of hardware values.\n\tMay include alarms if devices not included in process\n\tIdeally, Alarms should be only part of EM and CM in PRG_Process \n*)\nPRG_DeviceManager();\n\n(*\n\tTools for processing\n\tInclude\n\t\tPack States and Modes\n\t\tAlarms\n\t\tDate and Time\n*)\nPLC_PACK();\nPRG_TestAlarm();\nPRG_GetTime_CtrlX();\n\n(*\n\tProcess\n\tManagement of Unit, EM and CM if any\n*)\nPRG_Process();\n```",
+        "className": "",
+        "x": 650,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c27cf164a5064eb4",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "2c31763846faff4a",
+        "subscription": "c5b0190b901ecb86",
+        "path": "motion/axs/Axis_x/state/values/actual/pos/mm",
+        "name": "",
+        "inputs": 0,
+        "x": 230,
+        "y": 80,
+        "wires": [
+            [
+                "5c7cf1a654210fbf",
+                "8cafa78380a32c91"
+            ]
+        ]
+    },
+    {
+        "id": "8cafa78380a32c91",
+        "type": "debug",
+        "z": "2c31763846faff4a",
+        "name": "debug 4",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "756b218e0e1a0dd9",
+        "type": "ui-switch",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "",
+        "label": "Alarm Abort",
+        "group": "e1f3bcea95b360ed",
+        "order": 1,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left-swapped",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 130,
+        "y": 220,
+        "wires": [
+            [
+                "0b0c1cf7cf9ba342"
+            ]
+        ]
+    },
+    {
+        "id": "9ea3cc8a755fbeaf",
+        "type": "ctrlx-datalayer-request",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/uiSetAlarm_0",
+        "payloadFormat": "value_type",
+        "name": "Abort",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 430,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "269fe66b3436842d",
+        "type": "ui-switch",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "",
+        "label": "Alarm Stop",
+        "group": "e1f3bcea95b360ed",
+        "order": 3,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left-swapped",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 130,
+        "y": 280,
+        "wires": [
+            [
+                "d1e4c6aef5b87473"
+            ]
+        ]
+    },
+    {
+        "id": "ea297b8cac8cec6a",
+        "type": "ctrlx-datalayer-request",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/uiSetAlarm_1",
+        "payloadFormat": "value_type",
+        "name": "Stop",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 430,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0977eeaa66cbd6b4",
+        "type": "ui-switch",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "",
+        "label": "Alarm Hold",
+        "group": "e1f3bcea95b360ed",
+        "order": 5,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left-swapped",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 130,
+        "y": 340,
+        "wires": [
+            [
+                "d496348cc54a549e"
+            ]
+        ]
+    },
+    {
+        "id": "dce7468706bd330c",
+        "type": "ctrlx-datalayer-request",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/uiSetAlarm_2",
+        "payloadFormat": "value_type",
+        "name": "Hold",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 430,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "78c583a6ee4681dd",
+        "type": "ui-switch",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "",
+        "label": "Warning 1",
+        "group": "e1f3bcea95b360ed",
+        "order": 11,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left-swapped",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 120,
+        "y": 560,
+        "wires": [
+            [
+                "b33b59cc37440f31"
+            ]
+        ]
+    },
+    {
+        "id": "7f93de6c3aa130c6",
+        "type": "ctrlx-datalayer-request",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/uiSetWarning_0",
+        "payloadFormat": "value_type",
+        "name": "Set Warning 1",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 460,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "42146834f26dda03",
+        "type": "ui-switch",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "",
+        "label": "Warning 2",
+        "group": "e1f3bcea95b360ed",
+        "order": 13,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left-swapped",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 120,
+        "y": 620,
+        "wires": [
+            [
+                "02c611d128aa04f1"
+            ]
+        ]
+    },
+    {
+        "id": "b120c2f60521ed0f",
+        "type": "ctrlx-datalayer-request",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/uiSetWarning_1",
+        "payloadFormat": "value_type",
+        "name": "Set Warning 2",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 460,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "30cab772f950f691",
+        "type": "ui-switch",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "",
+        "label": "Warning 3",
+        "group": "e1f3bcea95b360ed",
+        "order": 15,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left-swapped",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 120,
+        "y": 680,
+        "wires": [
+            [
+                "13d07cc6afa7b660"
+            ]
+        ]
+    },
+    {
+        "id": "971fb161377a60a3",
+        "type": "ctrlx-datalayer-request",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/uiSetWarning_2",
+        "payloadFormat": "value_type",
+        "name": "Set Warning 3",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 460,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0b0c1cf7cf9ba342",
+        "type": "function",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "bool8",
+        "func": "let mySwitch = msg.payload;\nmsg.payload = { type: \"bool8\", value: mySwitch };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 220,
+        "wires": [
+            [
+                "9ea3cc8a755fbeaf"
+            ]
+        ]
+    },
+    {
+        "id": "d1e4c6aef5b87473",
+        "type": "function",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "bool8",
+        "func": "let mySwitch = msg.payload;\nmsg.payload = { type: \"bool8\", value: mySwitch };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 280,
+        "wires": [
+            [
+                "ea297b8cac8cec6a"
+            ]
+        ]
+    },
+    {
+        "id": "d496348cc54a549e",
+        "type": "function",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "bool8",
+        "func": "let mySwitch = msg.payload;\nmsg.payload = { type: \"bool8\", value: mySwitch };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 340,
+        "wires": [
+            [
+                "dce7468706bd330c"
+            ]
+        ]
+    },
+    {
+        "id": "b33b59cc37440f31",
+        "type": "function",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "bool8",
+        "func": "let mySwitch = msg.payload;\nmsg.payload = { type: \"bool8\", value: mySwitch };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 560,
+        "wires": [
+            [
+                "7f93de6c3aa130c6"
+            ]
+        ]
+    },
+    {
+        "id": "02c611d128aa04f1",
+        "type": "function",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "bool8",
+        "func": "let mySwitch = msg.payload;\nmsg.payload = { type: \"bool8\", value: mySwitch };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 620,
+        "wires": [
+            [
+                "b120c2f60521ed0f"
+            ]
+        ]
+    },
+    {
+        "id": "13d07cc6afa7b660",
+        "type": "function",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "bool8",
+        "func": "let mySwitch = msg.payload;\nmsg.payload = { type: \"bool8\", value: mySwitch };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 680,
+        "wires": [
+            [
+                "971fb161377a60a3"
+            ]
+        ]
+    },
+    {
+        "id": "420c5d876e1a86ee",
+        "type": "comment",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "To be used to test the alarms",
+        "info": "",
+        "x": 180,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "2a6978139cabccee",
+        "type": "ctrlx-datalayer-request",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/uiSetAlarm_4",
+        "payloadFormat": "value_type",
+        "name": "Suspend",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 440,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "09c46c7dd22bc673",
+        "type": "function",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "bool8",
+        "func": "let mySwitch = msg.payload;\nmsg.payload = { type: \"bool8\", value: mySwitch };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 400,
+        "wires": [
+            [
+                "2a6978139cabccee"
+            ]
+        ]
+    },
+    {
+        "id": "32727b4f27afd8ef",
+        "type": "ui-switch",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "",
+        "label": "Alarm Suspend",
+        "group": "e1f3bcea95b360ed",
+        "order": 7,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left-swapped",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 140,
+        "y": 400,
+        "wires": [
+            [
+                "09c46c7dd22bc673"
+            ]
+        ]
+    },
+    {
+        "id": "87bcabb2cadf27e1",
+        "type": "ui-switch",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "",
+        "label": "Alarm Complete",
+        "group": "e1f3bcea95b360ed",
+        "order": 9,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left-swapped",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 140,
+        "y": 460,
+        "wires": [
+            [
+                "33a68d3f92d0c0f0"
+            ]
+        ]
+    },
+    {
+        "id": "33a68d3f92d0c0f0",
+        "type": "function",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "bool8",
+        "func": "let mySwitch = msg.payload;\nmsg.payload = { type: \"bool8\", value: mySwitch };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 460,
+        "wires": [
+            [
+                "79d2b2f3e3b49af9"
+            ]
+        ]
+    },
+    {
+        "id": "79d2b2f3e3b49af9",
+        "type": "ctrlx-datalayer-request",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/uiSetAlarm_3",
+        "payloadFormat": "value_type",
+        "name": "Complete",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 440,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5b06eaabdca6a7b5",
+        "type": "ui-switch",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "",
+        "label": "Ack Abort",
+        "group": "e1f3bcea95b360ed",
+        "order": 2,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left-swapped",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 660,
+        "y": 220,
+        "wires": [
+            [
+                "bf95b661b031ef87"
+            ]
+        ]
+    },
+    {
+        "id": "0cbc337d58200408",
+        "type": "ctrlx-datalayer-request",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/uiAckAlarm_0",
+        "payloadFormat": "value_type",
+        "name": "Abort",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 970,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cf2708046f466cf9",
+        "type": "ui-switch",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "",
+        "label": "Ack Stop",
+        "group": "e1f3bcea95b360ed",
+        "order": 4,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left-swapped",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 660,
+        "y": 280,
+        "wires": [
+            [
+                "f337b9a3a0e1277a"
+            ]
+        ]
+    },
+    {
+        "id": "c378040bbd08cb4d",
+        "type": "ctrlx-datalayer-request",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/uiAckAlarm_1",
+        "payloadFormat": "value_type",
+        "name": "Stop",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 970,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "30173e72ed6e3c12",
+        "type": "ui-switch",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "",
+        "label": "Ack Hold",
+        "group": "e1f3bcea95b360ed",
+        "order": 6,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left-swapped",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 660,
+        "y": 340,
+        "wires": [
+            [
+                "e91d9b44b6c2a948"
+            ]
+        ]
+    },
+    {
+        "id": "1540f7cc3d880657",
+        "type": "ctrlx-datalayer-request",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/uiAckAlarm_2",
+        "payloadFormat": "value_type",
+        "name": "Hold",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 970,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2391d3a624c73fe1",
+        "type": "ui-switch",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "",
+        "label": "Ack Warn 1",
+        "group": "e1f3bcea95b360ed",
+        "order": 12,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left-swapped",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 670,
+        "y": 560,
+        "wires": [
+            [
+                "df7361bc935feaa2"
+            ]
+        ]
+    },
+    {
+        "id": "af6ccdc583b82425",
+        "type": "ctrlx-datalayer-request",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/uiAckWarning_0",
+        "payloadFormat": "value_type",
+        "name": "Set Warning 1",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 1000,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "acfc400f85ab825c",
+        "type": "ui-switch",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "",
+        "label": "Ack Warn 2",
+        "group": "e1f3bcea95b360ed",
+        "order": 14,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left-swapped",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 670,
+        "y": 620,
+        "wires": [
+            [
+                "b457351155ec75b8"
+            ]
+        ]
+    },
+    {
+        "id": "4956f2a33c2ad6c8",
+        "type": "ctrlx-datalayer-request",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/uiAckWarning_1",
+        "payloadFormat": "value_type",
+        "name": "Set Warning 2",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 1000,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "216bd5706994e612",
+        "type": "ui-switch",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "",
+        "label": "Ack Warn 3",
+        "group": "e1f3bcea95b360ed",
+        "order": 16,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left-swapped",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 670,
+        "y": 680,
+        "wires": [
+            [
+                "e0a6260887b1adab"
+            ]
+        ]
+    },
+    {
+        "id": "f37414b7c57706fb",
+        "type": "ctrlx-datalayer-request",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/uiAckWarning_2",
+        "payloadFormat": "value_type",
+        "name": "Set Warning 3",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 1000,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bf95b661b031ef87",
+        "type": "function",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "bool8",
+        "func": "let mySwitch = msg.payload;\nmsg.payload = { type: \"bool8\", value: mySwitch };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 220,
+        "wires": [
+            [
+                "0cbc337d58200408"
+            ]
+        ]
+    },
+    {
+        "id": "f337b9a3a0e1277a",
+        "type": "function",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "bool8",
+        "func": "let mySwitch = msg.payload;\nmsg.payload = { type: \"bool8\", value: mySwitch };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 280,
+        "wires": [
+            [
+                "c378040bbd08cb4d"
+            ]
+        ]
+    },
+    {
+        "id": "e91d9b44b6c2a948",
+        "type": "function",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "bool8",
+        "func": "let mySwitch = msg.payload;\nmsg.payload = { type: \"bool8\", value: mySwitch };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 340,
+        "wires": [
+            [
+                "1540f7cc3d880657"
+            ]
+        ]
+    },
+    {
+        "id": "df7361bc935feaa2",
+        "type": "function",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "bool8",
+        "func": "let mySwitch = msg.payload;\nmsg.payload = { type: \"bool8\", value: mySwitch };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 560,
+        "wires": [
+            [
+                "af6ccdc583b82425"
+            ]
+        ]
+    },
+    {
+        "id": "b457351155ec75b8",
+        "type": "function",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "bool8",
+        "func": "let mySwitch = msg.payload;\nmsg.payload = { type: \"bool8\", value: mySwitch };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 620,
+        "wires": [
+            [
+                "4956f2a33c2ad6c8"
+            ]
+        ]
+    },
+    {
+        "id": "e0a6260887b1adab",
+        "type": "function",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "bool8",
+        "func": "let mySwitch = msg.payload;\nmsg.payload = { type: \"bool8\", value: mySwitch };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 680,
+        "wires": [
+            [
+                "f37414b7c57706fb"
+            ]
+        ]
+    },
+    {
+        "id": "ae6c13bf3e6e5732",
+        "type": "function",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "bool8",
+        "func": "let mySwitch = msg.payload;\nmsg.payload = { type: \"bool8\", value: mySwitch };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 400,
+        "wires": [
+            [
+                "07c0cb6f4a903b4e"
+            ]
+        ]
+    },
+    {
+        "id": "bbcadc08e08e3882",
+        "type": "ui-switch",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "",
+        "label": "Ack Suspend",
+        "group": "e1f3bcea95b360ed",
+        "order": 8,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left-swapped",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 670,
+        "y": 400,
+        "wires": [
+            [
+                "ae6c13bf3e6e5732"
+            ]
+        ]
+    },
+    {
+        "id": "07c0cb6f4a903b4e",
+        "type": "ctrlx-datalayer-request",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/uiAckAlarm_4",
+        "payloadFormat": "value_type",
+        "name": "Suspend",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 980,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "74f88add9dcce40e",
+        "type": "ui-switch",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "",
+        "label": "Ack Complete",
+        "group": "e1f3bcea95b360ed",
+        "order": 10,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left-swapped",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 680,
+        "y": 460,
+        "wires": [
+            [
+                "b222f0c49b6ee083"
+            ]
+        ]
+    },
+    {
+        "id": "b222f0c49b6ee083",
+        "type": "function",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "name": "bool8",
+        "func": "let mySwitch = msg.payload;\nmsg.payload = { type: \"bool8\", value: mySwitch };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 460,
+        "wires": [
+            [
+                "ac6803173c23ee75"
+            ]
+        ]
+    },
+    {
+        "id": "ac6803173c23ee75",
+        "type": "ctrlx-datalayer-request",
+        "z": "2c31763846faff4a",
+        "g": "39d2c8fa2da9a3bb",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PackTag/hevsPackAlarm_UI/uiAckAlarm_3",
+        "payloadFormat": "value_type",
+        "name": "Complete",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 980,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e4a4e186145c35ce",
+        "type": "ui-radio-group",
+        "z": "eaf2bfc7454623a0",
+        "g": "109dfdf213606c81",
+        "group": "5765b0da98500f6a",
+        "name": "InOp TRUE/FALSE",
+        "label": "InOp",
+        "order": 7,
+        "width": "2",
+        "height": "1",
+        "columns": "2",
+        "passthru": false,
+        "options": [
+            {
+                "label": "TRUE",
+                "value": 1,
+                "type": "num"
+            },
+            {
+                "label": "FALSE",
+                "value": 2,
+                "type": "num"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 570,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "94fe66ce01a44d97",
+        "type": "function",
+        "z": "eaf2bfc7454623a0",
+        "g": "109dfdf213606c81",
+        "name": "TRUE FALSE",
+        "func": "let myBool = false;\n\nmyBool = msg.payload;\n\nif (myBool === false) {\n  msg.payload = 2;\n} else {\n  msg.payload = 1;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 160,
+        "wires": [
+            [
+                "e4a4e186145c35ce"
+            ]
+        ]
+    },
+    {
+        "id": "ded8a5dc4b3027b0",
+        "type": "inject",
+        "z": "eaf2bfc7454623a0",
+        "g": "109dfdf213606c81",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 150,
+        "y": 140,
+        "wires": [
+            [
+                "94fe66ce01a44d97",
+                "c2c3ec1d528d773f"
+            ]
+        ]
+    },
+    {
+        "id": "b848aa9c4c8bb73e",
+        "type": "inject",
+        "z": "eaf2bfc7454623a0",
+        "g": "109dfdf213606c81",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 150,
+        "y": 200,
+        "wires": [
+            [
+                "94fe66ce01a44d97"
+            ]
+        ]
+    },
+    {
+        "id": "c2c3ec1d528d773f",
+        "type": "debug",
+        "z": "eaf2bfc7454623a0",
+        "g": "109dfdf213606c81",
+        "name": "InOp",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "62d55bf8b5fed827",
+        "type": "comment",
+        "z": "eaf2bfc7454623a0",
+        "g": "109dfdf213606c81",
+        "name": "InOp",
+        "info": "",
+        "x": 550,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "c391a9a9118d3b12",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "eaf2bfc7454623a0",
+        "g": "109dfdf213606c81",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PRG_Student/stTestFbGripperHmi/gripperStateInOp",
+        "name": "",
+        "inputs": 0,
+        "x": 210,
+        "y": 80,
+        "wires": [
+            [
+                "94fe66ce01a44d97",
+                "c2c3ec1d528d773f"
+            ]
+        ]
+    },
+    {
+        "id": "9d1d5761860630e5",
+        "type": "ui-radio-group",
+        "z": "eaf2bfc7454623a0",
+        "g": "6f8cb341a624a725",
+        "group": "5765b0da98500f6a",
+        "name": "Open Done TRUE / FALSE",
+        "label": "Open Done",
+        "order": 6,
+        "width": "2",
+        "height": "1",
+        "columns": "2",
+        "passthru": false,
+        "options": [
+            {
+                "label": "TRUE",
+                "value": 1,
+                "type": "num"
+            },
+            {
+                "label": "FALSE",
+                "value": 2,
+                "type": "num"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 400,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f26f764821d406cf",
+        "type": "function",
+        "z": "eaf2bfc7454623a0",
+        "g": "6f8cb341a624a725",
+        "name": "TRUE FALSE",
+        "func": "let myBool = false;\n\nmyBool = msg.payload;\n\nif (myBool === false) {\n  msg.payload = 2;\n} else {\n  msg.payload = 1;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 160,
+        "y": 420,
+        "wires": [
+            [
+                "9d1d5761860630e5"
+            ]
+        ]
+    },
+    {
+        "id": "742fce5412488928",
+        "type": "comment",
+        "z": "eaf2bfc7454623a0",
+        "g": "6f8cb341a624a725",
+        "name": "Open Done",
+        "info": "",
+        "x": 410,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "f43cac39516a6f0d",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "eaf2bfc7454623a0",
+        "g": "6f8cb341a624a725",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PRG_Student/stTestFbGripperHmi/executeOpenDone",
+        "name": "",
+        "inputs": 0,
+        "x": 220,
+        "y": 340,
+        "wires": [
+            [
+                "f26f764821d406cf",
+                "26e75b1d97ea9010"
+            ]
+        ]
+    },
+    {
+        "id": "86397fca2539ddd5",
+        "type": "ui-radio-group",
+        "z": "eaf2bfc7454623a0",
+        "g": "a1a7c03b79f28556",
+        "group": "5765b0da98500f6a",
+        "name": "Error TRUE / FALSE",
+        "label": "Error",
+        "order": 10,
+        "width": "2",
+        "height": "1",
+        "columns": "2",
+        "passthru": false,
+        "options": [
+            {
+                "label": "TRUE",
+                "value": 1,
+                "type": "num"
+            },
+            {
+                "label": "FALSE",
+                "value": 2,
+                "type": "num"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 1260,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "89c13c669c2e0f56",
+        "type": "function",
+        "z": "eaf2bfc7454623a0",
+        "g": "a1a7c03b79f28556",
+        "name": "TRUE FALSE",
+        "func": "let myBool = false;\n\nmyBool = msg.payload;\n\nif (myBool === false) {\n  msg.payload = 2;\n} else {\n  msg.payload = 1;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1020,
+        "y": 160,
+        "wires": [
+            [
+                "86397fca2539ddd5"
+            ]
+        ]
+    },
+    {
+        "id": "bf2598d595675045",
+        "type": "comment",
+        "z": "eaf2bfc7454623a0",
+        "g": "a1a7c03b79f28556",
+        "name": "Error",
+        "info": "",
+        "x": 1210,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "b291efe98968ed45",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "eaf2bfc7454623a0",
+        "g": "a1a7c03b79f28556",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PRG_Student/stTestFbGripperHmi/gripperStateError",
+        "name": "",
+        "inputs": 0,
+        "x": 900,
+        "y": 80,
+        "wires": [
+            [
+                "89c13c669c2e0f56",
+                "189136639e7733c9"
+            ]
+        ]
+    },
+    {
+        "id": "21c6cd54aa48fbcb",
+        "type": "ui-radio-group",
+        "z": "eaf2bfc7454623a0",
+        "g": "dfc987d7503267f1",
+        "group": "5765b0da98500f6a",
+        "name": "IsOpen TRUE / FALSE",
+        "label": "Is Open",
+        "order": 3,
+        "width": "2",
+        "height": "1",
+        "columns": "2",
+        "passthru": false,
+        "options": [
+            {
+                "label": "TRUE",
+                "value": 1,
+                "type": "num"
+            },
+            {
+                "label": "FALSE",
+                "value": 2,
+                "type": "num"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 1000,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2a214a13db11e30d",
+        "type": "function",
+        "z": "eaf2bfc7454623a0",
+        "g": "dfc987d7503267f1",
+        "name": "TRUE FALSE",
+        "func": "let myBool = false;\n\nmyBool = msg.payload;\n\nif (myBool === false) {\n  msg.payload = 2;\n} else {\n  msg.payload = 1;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 420,
+        "wires": [
+            [
+                "21c6cd54aa48fbcb"
+            ]
+        ]
+    },
+    {
+        "id": "4028284ccdbaa43d",
+        "type": "comment",
+        "z": "eaf2bfc7454623a0",
+        "g": "dfc987d7503267f1",
+        "name": "IsOpen",
+        "info": "",
+        "x": 950,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "895a407ff2269024",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "eaf2bfc7454623a0",
+        "g": "dfc987d7503267f1",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PRG_Student/stTestFbGripperHmi/gripperStateOpen",
+        "name": "",
+        "inputs": 0,
+        "x": 820,
+        "y": 340,
+        "wires": [
+            [
+                "2a214a13db11e30d"
+            ]
+        ]
+    },
+    {
+        "id": "258fbef0487ceedf",
+        "type": "ui-radio-group",
+        "z": "eaf2bfc7454623a0",
+        "g": "72d122f5da95a597",
+        "group": "5765b0da98500f6a",
+        "name": "IsClosed TRUE / FALSE",
+        "label": "Is Closed",
+        "order": 5,
+        "width": "2",
+        "height": "1",
+        "columns": "2",
+        "passthru": false,
+        "options": [
+            {
+                "label": "TRUE",
+                "value": 1,
+                "type": "num"
+            },
+            {
+                "label": "FALSE",
+                "value": 2,
+                "type": "num"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 210,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "98f3a3b9088a69bb",
+        "type": "function",
+        "z": "eaf2bfc7454623a0",
+        "g": "72d122f5da95a597",
+        "name": "TRUE FALSE",
+        "func": "let myBool = false;\n\nmyBool = msg.payload;\n\nif (myBool === false) {\n  msg.payload = 2;\n} else {\n  msg.payload = 1;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 200,
+        "y": 680,
+        "wires": [
+            [
+                "258fbef0487ceedf"
+            ]
+        ]
+    },
+    {
+        "id": "fb9abf3a139624a6",
+        "type": "comment",
+        "z": "eaf2bfc7454623a0",
+        "g": "72d122f5da95a597",
+        "name": "IsClosed",
+        "info": "",
+        "x": 420,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "beb8e4283b90b2ac",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "eaf2bfc7454623a0",
+        "g": "72d122f5da95a597",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PRG_Student/stTestFbGripperHmi/gripperStateClosed",
+        "name": "",
+        "inputs": 0,
+        "x": 220,
+        "y": 600,
+        "wires": [
+            [
+                "98f3a3b9088a69bb"
+            ]
+        ]
+    },
+    {
+        "id": "757d3cf7c6971394",
+        "type": "ui-notification",
+        "z": "eaf2bfc7454623a0",
+        "g": "a1a7c03b79f28556",
+        "ui": "926d3079c9560d19",
+        "position": "center center",
+        "colorDefault": true,
+        "color": "#000000",
+        "displayTime": "50",
+        "showCountdown": true,
+        "outputs": 1,
+        "allowDismiss": true,
+        "dismissText": "Close",
+        "allowConfirm": true,
+        "confirmText": "Confirm",
+        "raw": false,
+        "className": "",
+        "name": "Gripper Error : Disable Gripper to cancel",
+        "x": 1140,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "189136639e7733c9",
+        "type": "function",
+        "z": "eaf2bfc7454623a0",
+        "g": "a1a7c03b79f28556",
+        "name": "Set Alarm",
+        "func": "let myBool = false;\n\nmyBool = msg.payload;\n\nif (myBool === true) {\n  msg.payload = 'Alarm because of TimeOut, Disable Gripper to cancel Error'\n  return msg;\n} else {\n  ;\n}\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 200,
+        "wires": [
+            [
+                "757d3cf7c6971394"
+            ]
+        ]
+    },
+    {
+        "id": "a5faa35ff75e941f",
+        "type": "ui-text",
+        "z": "eaf2bfc7454623a0",
+        "g": "e04ca71a5699df8d",
+        "group": "5765b0da98500f6a",
+        "order": 4,
+        "width": "2",
+        "height": "1",
+        "name": "Gripper",
+        "label": "Sensor",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 840,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "41dafcb5ae202d89",
+        "type": "function",
+        "z": "eaf2bfc7454623a0",
+        "g": "e04ca71a5699df8d",
+        "name": "Round 0.01",
+        "func": "let position = Math.round(msg.payload * 100) / 100;\n\nglobal.set('Gripper_State', position);\n\nlet postion_mm = 'Gripper : ';\n\npostion_mm = postion_mm.concat(position,' [mm]');\n\nmsg.payload = postion_mm;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 660,
+        "wires": [
+            [
+                "a5faa35ff75e941f"
+            ]
+        ]
+    },
+    {
+        "id": "05e34c107c516944",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "eaf2bfc7454623a0",
+        "g": "e04ca71a5699df8d",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PRG_Student/stTestFbGripperHmi/reSensorGripper",
+        "name": "",
+        "inputs": 0,
+        "x": 710,
+        "y": 600,
+        "wires": [
+            [
+                "41dafcb5ae202d89"
+            ]
+        ]
+    },
+    {
+        "id": "1ff204f3558d8fd7",
+        "type": "comment",
+        "z": "eaf2bfc7454623a0",
+        "g": "e04ca71a5699df8d",
+        "name": "IsPosition",
+        "info": "",
+        "x": 1040,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "eacc7753f8eafa65",
+        "type": "ui-button",
+        "z": "eaf2bfc7454623a0",
+        "g": "c3317933d6ba62d6",
+        "group": "5765b0da98500f6a",
+        "name": "",
+        "label": "Close",
+        "order": 2,
+        "width": "3",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 170,
+        "y": 1320,
+        "wires": [
+            [
+                "b2783e101e7fe4df"
+            ]
+        ]
+    },
+    {
+        "id": "06128533d611f557",
+        "type": "ui-button",
+        "z": "eaf2bfc7454623a0",
+        "g": "c3317933d6ba62d6",
+        "group": "5765b0da98500f6a",
+        "name": "",
+        "label": "Open",
+        "order": 1,
+        "width": "3",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 170,
+        "y": 1140,
+        "wires": [
+            [
+                "deb09a875fcefa78"
+            ]
+        ]
+    },
+    {
+        "id": "deb09a875fcefa78",
+        "type": "function",
+        "z": "eaf2bfc7454623a0",
+        "g": "c3317933d6ba62d6",
+        "name": "bool8 TRUE",
+        "func": "msg.payload = {type:\"bool8\",value:true};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 1140,
+        "wires": [
+            [
+                "ed6c1bcb6b5a5b3a"
+            ]
+        ]
+    },
+    {
+        "id": "0783d842b8819c0e",
+        "type": "function",
+        "z": "eaf2bfc7454623a0",
+        "g": "c3317933d6ba62d6",
+        "name": "bool8 FALSE",
+        "func": "msg.payload = {type:\"bool8\",value:false};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 1200,
+        "wires": [
+            [
+                "ed6c1bcb6b5a5b3a"
+            ]
+        ]
+    },
+    {
+        "id": "ed6c1bcb6b5a5b3a",
+        "type": "ctrlx-datalayer-request",
+        "z": "eaf2bfc7454623a0",
+        "g": "c3317933d6ba62d6",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PRG_Student/stTestFbGripperHmi/openGripper",
+        "payloadFormat": "value_type",
+        "name": "Open Gripper",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 820,
+        "y": 1140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b2783e101e7fe4df",
+        "type": "function",
+        "z": "eaf2bfc7454623a0",
+        "g": "c3317933d6ba62d6",
+        "name": "bool8 TRUE",
+        "func": "msg.payload = {type:\"bool8\",value:true};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 1320,
+        "wires": [
+            [
+                "1f7cda0250f19a40"
+            ]
+        ]
+    },
+    {
+        "id": "88604fb51c1c730a",
+        "type": "function",
+        "z": "eaf2bfc7454623a0",
+        "g": "c3317933d6ba62d6",
+        "name": "bool8 FALSE",
+        "func": "msg.payload = {type:\"bool8\",value:false};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 1380,
+        "wires": [
+            [
+                "1f7cda0250f19a40"
+            ]
+        ]
+    },
+    {
+        "id": "1f7cda0250f19a40",
+        "type": "ctrlx-datalayer-request",
+        "z": "eaf2bfc7454623a0",
+        "g": "c3317933d6ba62d6",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PRG_Student/stTestFbGripperHmi/closeGripper",
+        "payloadFormat": "value_type",
+        "name": "Close Gripper",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 820,
+        "y": 1320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3076250a25ff821e",
+        "type": "ui-radio-group",
+        "z": "eaf2bfc7454623a0",
+        "g": "42bf83e78c2448df",
+        "group": "5765b0da98500f6a",
+        "name": "Part Present TRUE / FALSE",
+        "label": "Part Present",
+        "order": 9,
+        "width": "2",
+        "height": "1",
+        "columns": "2",
+        "passthru": false,
+        "options": [
+            {
+                "label": "TRUE",
+                "value": 1,
+                "type": "num"
+            },
+            {
+                "label": "FALSE",
+                "value": 2,
+                "type": "num"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 220,
+        "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7c18e8b16cb1fc1a",
+        "type": "function",
+        "z": "eaf2bfc7454623a0",
+        "g": "42bf83e78c2448df",
+        "name": "TRUE FALSE",
+        "func": "let myBool = false;\n\nmyBool = msg.payload;\n\nif (myBool === false) {\n  msg.payload = 2;\n} else {\n  msg.payload = 1;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 200,
+        "y": 940,
+        "wires": [
+            [
+                "3076250a25ff821e"
+            ]
+        ]
+    },
+    {
+        "id": "eb10adfd67d35a64",
+        "type": "comment",
+        "z": "eaf2bfc7454623a0",
+        "g": "42bf83e78c2448df",
+        "name": "Part Present",
+        "info": "",
+        "x": 430,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "f6acede036bfa283",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "eaf2bfc7454623a0",
+        "g": "42bf83e78c2448df",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PRG_Student/stTestFbGripperHmi/gripperStatePartPresent",
+        "name": "",
+        "inputs": 0,
+        "x": 240,
+        "y": 860,
+        "wires": [
+            [
+                "7c18e8b16cb1fc1a"
+            ]
+        ]
+    },
+    {
+        "id": "446f4c1831859033",
+        "type": "ui-radio-group",
+        "z": "eaf2bfc7454623a0",
+        "g": "19be93d218ea5065",
+        "group": "5765b0da98500f6a",
+        "name": "Close Done TRUE / FALSE",
+        "label": "Close Done",
+        "order": 8,
+        "width": "2",
+        "height": "1",
+        "columns": "2",
+        "passthru": false,
+        "options": [
+            {
+                "label": "TRUE",
+                "value": 1,
+                "type": "num"
+            },
+            {
+                "label": "FALSE",
+                "value": 2,
+                "type": "num"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 920,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7373f4f09f74cf4f",
+        "type": "function",
+        "z": "eaf2bfc7454623a0",
+        "g": "19be93d218ea5065",
+        "name": "TRUE FALSE",
+        "func": "let myBool = false;\n\nmyBool = msg.payload;\n\nif (myBool === false) {\n  msg.payload = 2;\n} else {\n  msg.payload = 1;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 960,
+        "wires": [
+            [
+                "446f4c1831859033"
+            ]
+        ]
+    },
+    {
+        "id": "af2ac23c9f46e89f",
+        "type": "comment",
+        "z": "eaf2bfc7454623a0",
+        "g": "19be93d218ea5065",
+        "name": "Close Done",
+        "info": "",
+        "x": 930,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "0249f46502c192d8",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "eaf2bfc7454623a0",
+        "g": "19be93d218ea5065",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PRG_Student/stTestFbGripperHmi/executeCloseDone",
+        "name": "",
+        "inputs": 0,
+        "x": 740,
+        "y": 880,
+        "wires": [
+            [
+                "7373f4f09f74cf4f",
+                "a09007a490960a6d"
+            ]
+        ]
+    },
+    {
+        "id": "67e827ab2bcbf3fb",
+        "type": "link in",
+        "z": "eaf2bfc7454623a0",
+        "g": "c3317933d6ba62d6",
+        "name": "Reset",
+        "links": [
+            "3721ba1125f3e447"
+        ],
+        "x": 355,
+        "y": 1280,
+        "wires": [
+            [
+                "0783d842b8819c0e",
+                "88604fb51c1c730a"
+            ]
+        ]
+    },
+    {
+        "id": "a09007a490960a6d",
+        "type": "link out",
+        "z": "eaf2bfc7454623a0",
+        "g": "19be93d218ea5065",
+        "name": "Close Done",
+        "mode": "link",
+        "links": [
+            "390e22c352b33b3d"
+        ],
+        "x": 1045,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "390e22c352b33b3d",
+        "type": "link in",
+        "z": "eaf2bfc7454623a0",
+        "g": "c3317933d6ba62d6",
+        "name": "Close Done",
+        "links": [
+            "a09007a490960a6d"
+        ],
+        "x": 195,
+        "y": 1380,
+        "wires": [
+            [
+                "88604fb51c1c730a"
+            ]
+        ]
+    },
+    {
+        "id": "26e75b1d97ea9010",
+        "type": "link out",
+        "z": "eaf2bfc7454623a0",
+        "g": "6f8cb341a624a725",
+        "name": "Open Done",
+        "mode": "link",
+        "links": [
+            "039d1f28329253be"
+        ],
+        "x": 485,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "039d1f28329253be",
+        "type": "link in",
+        "z": "eaf2bfc7454623a0",
+        "g": "c3317933d6ba62d6",
+        "name": "Open Done",
+        "links": [
+            "26e75b1d97ea9010"
+        ],
+        "x": 195,
+        "y": 1200,
+        "wires": [
+            [
+                "0783d842b8819c0e"
+            ]
+        ]
+    }
+]

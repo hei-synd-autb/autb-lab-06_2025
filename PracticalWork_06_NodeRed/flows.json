@@ -532,6 +532,43 @@
         "h": 602
     },
     {
+        "id": "0b01b5112b73520c",
+        "type": "group",
+        "z": "016306c2d57be25e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "234883240fc33ddd",
+            "03c3188a99187464",
+            "4fff1db996e9f3bc",
+            "835f993728f4da1e",
+            "fefb20c486303bfe",
+            "3b818c56464d0307",
+            "a39a6e2a36bc3f90",
+            "8e65b7991f83358f",
+            "1181b7ec01546c2e",
+            "e4b79fd3ec02cf04",
+            "8690a5797efcf59d",
+            "91aa0e626a309729",
+            "69ef282230163696",
+            "83a5feeafea9eb75",
+            "9170b5aac9d8c3e9",
+            "62fab8afa2d04c48",
+            "4d9fc7e403fba3dd"
+        ],
+        "x": 34,
+        "y": 619,
+        "w": 1072,
+        "h": 542
+    },
+    {
         "id": "fab458635840f194",
         "type": "group",
         "z": "66b713bff26c6577",
@@ -723,39 +760,6 @@
         "y": 1879,
         "w": 572,
         "h": 82
-    },
-    {
-        "id": "0b01b5112b73520c",
-        "type": "group",
-        "z": "016306c2d57be25e",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "234883240fc33ddd",
-            "03c3188a99187464",
-            "4fff1db996e9f3bc",
-            "835f993728f4da1e",
-            "fefb20c486303bfe",
-            "3b818c56464d0307",
-            "a39a6e2a36bc3f90",
-            "8e65b7991f83358f",
-            "1181b7ec01546c2e",
-            "e4b79fd3ec02cf04",
-            "8690a5797efcf59d",
-            "91aa0e626a309729",
-            "69ef282230163696"
-        ],
-        "x": 34,
-        "y": 619,
-        "w": 892,
-        "h": 462
     },
     {
         "id": "8966a7b403a8fb88",
@@ -2299,7 +2303,7 @@
         "y": 660,
         "wires": [
             [
-                "8690a5797efcf59d"
+                "83a5feeafea9eb75"
             ]
         ]
     },
@@ -2431,7 +2435,7 @@
         "y": 980,
         "wires": [
             [
-                "e4b79fd3ec02cf04"
+                "62fab8afa2d04c48"
             ]
         ]
     },
@@ -2441,7 +2445,7 @@
         "z": "016306c2d57be25e",
         "g": "0b01b5112b73520c",
         "name": "Get Warning Click",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -2450,7 +2454,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 790,
-        "y": 1040,
+        "y": 1120,
         "wires": []
     },
     {
@@ -2459,7 +2463,7 @@
         "z": "016306c2d57be25e",
         "g": "0b01b5112b73520c",
         "name": "Get Alarm Click",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -2468,7 +2472,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 780,
-        "y": 720,
+        "y": 800,
         "wires": []
     },
     {
@@ -2511,6 +2515,86 @@
         "x": 110,
         "y": 1040,
         "wires": []
+    },
+    {
+        "id": "83a5feeafea9eb75",
+        "type": "function",
+        "z": "016306c2d57be25e",
+        "g": "0b01b5112b73520c",
+        "name": "Ack Alarm Id",
+        "func": "var newMsg = msg;\nvar AlarmId = msg.payload.ID;\n\n// newMsg.payload = msg.payload.Value;\nnewMsg.payload = { type: \"int32\", value: AlarmId};\n\nreturn newMsg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 740,
+        "wires": [
+            [
+                "8690a5797efcf59d",
+                "9170b5aac9d8c3e9"
+            ]
+        ]
+    },
+    {
+        "id": "9170b5aac9d8c3e9",
+        "type": "ctrlx-datalayer-request",
+        "z": "016306c2d57be25e",
+        "g": "0b01b5112b73520c",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PackTag/hevsUI/uiAlarmGetId",
+        "payloadFormat": "value_type",
+        "name": "Alarm Id",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 960,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "62fab8afa2d04c48",
+        "type": "function",
+        "z": "016306c2d57be25e",
+        "g": "0b01b5112b73520c",
+        "name": "Ack Warning Id",
+        "func": "var newMsg = msg;\nvar WarningId = msg.payload.ID;\n\n// newMsg.payload = msg.payload.Value;\nnewMsg.payload = { type: \"int32\", value: WarningId };\n\nreturn newMsg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 1060,
+        "wires": [
+            [
+                "e4b79fd3ec02cf04",
+                "4d9fc7e403fba3dd"
+            ]
+        ]
+    },
+    {
+        "id": "4d9fc7e403fba3dd",
+        "type": "ctrlx-datalayer-request",
+        "z": "016306c2d57be25e",
+        "g": "0b01b5112b73520c",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PackTag/hevsUI/uiWarningGetId",
+        "payloadFormat": "value_type",
+        "name": "Warning Id",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 1010,
+        "y": 1060,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "69a1382792d493e5",

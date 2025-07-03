@@ -30,19 +30,23 @@ Author: [Cédric Lenoir](mailto:cedric.lenoir@hevs.ch)
 
 Write your warnings in **PRG_Student ACT_WarningAndAlarms**
 
+## Must be updated from PackTag v1.0.0
+
 ```iecst
+
 (*
 	Call some warnings for test
 *)
-fbSetWarning_SystemHold(bSetWarning := (actualState = E_PackState.eHeld),
-                        bAckWarningTrig := FALSE,
-                        // Warning Parameters
-                        ID := 11,
-                        Value := 31,
-                        Message := 'System Hold, Unhold to restart',
-                        Category := E_EventCategory.Warning,
-                        // Reference to plc time from PackTag
-                        plcDateTimePack	:= PackTag.Admin.PLCDateTime,
-                        // Link to PackTag Admin
-                        stAdminWarning := PackTag.Admin.Warning);
+fbSetWarning_0(xSetWarning := PackTag.hevsPackAlarm_UI.uiSetWarning_0,
+               xAckWarningTrig := PackTag.hevsPackAlarm_UI.uiAckWarning_0 OR FC_HEVS_GetAckWarningById(1),
+               // Warning Parameters
+               ID := 1,
+               Value := 31,
+               Message := 'Warning 0, Door Open',
+               Category := E_EventCategory.Warning,
+               // Reference to plc time from PackTag
+               plcDateTimePack	:= PackTag.Admin.PLCDateTime,
+               // Link to PackTag Admin
+               stAdminWarning := PackTag.Admin.Warning)
+
 ```

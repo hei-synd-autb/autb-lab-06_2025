@@ -15,6 +15,18 @@ Author: [Cédric Lenoir](mailto:cedric.lenoir@hevs.ch)
 
 
 ```iecst
+///
+///	www.hevs.ch
+///	Institut Systemes Industriels
+///	Project: 	HEVS Pack 2022
+///	Author:		Cedric Lenoir
+///	Date:		2024 August 29
+///	
+///	This structure is made to be available in GVL PackTag
+/// With name hevsUI to help diagnositic and interface of this implementation
+///
+///	To avoid to lose links if code is modified for info not in base PackTag 
+///
 TYPE HEVS_PackTag_UI :
 STRUCT
     // Bool commands for UI User inteface
@@ -62,5 +74,16 @@ STRUCT
 	uiStateMasterCurrent	: STRING := 'Not linked';	
 	uiStateMasterDiagnostic	: STRING := 'Not linked';	
 	uiModeMasterCurrent		: STRING := 'Not linked';	
-	uiModeMasterDiagnostic	: STRING := 'Not linked';	    
+	uiModeMasterDiagnostic	: STRING := 'Not linked';
+
+	// Used to acknowledge Alarms and Warning by ID.
+	// Do not write on these values.
+    // Used by:
+	// 	FC_HEVS_GetAckAlarmById
+	// 	FC_HEVS_GetAckWarningById
+	uiAlarmGetId			: DINT;
+	uiWarningGetId			: DINT;
+END_STRUCT
+END_TYPE
+    
 ```
